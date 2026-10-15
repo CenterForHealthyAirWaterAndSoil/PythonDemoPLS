@@ -1,0 +1,100 @@
+PASS T001 S01 record structure
+PASS T002 S01 deterministic replay
+PASS T003 S01 human_health_analysis absent
+PASS T004 S01 air_route_supported absent
+PASS T005 S01 claim_matches_measured_scope absent
+PASS T006 S01 essential_information_complete absent
+PASS T007 S01 temporal information removed
+PASS T008 S01 critical alternative added
+PASS T009 S01 title/background cannot bypass gates
+PASS T010 S02 record structure
+PASS T011 S02 deterministic replay
+PASS T012 S02 human_health_analysis absent
+PASS T013 S02 air_route_supported absent
+PASS T014 S02 claim_matches_measured_scope absent
+PASS T015 S02 essential_information_complete absent
+PASS T016 S02 temporal information removed
+PASS T017 S02 critical alternative added
+PASS T018 S02 title/background cannot bypass gates
+PASS T019 S03 record structure
+PASS T020 S03 deterministic replay
+PASS T021 S03 human_health_analysis absent
+PASS T022 S03 air_route_supported absent
+PASS T023 S03 claim_matches_measured_scope absent
+PASS T024 S03 essential_information_complete absent
+PASS T025 S03 temporal information removed
+PASS T026 S03 critical alternative added
+PASS T027 S03 title/background cannot bypass gates
+PASS T028 S04 record structure
+PASS T029 S04 deterministic replay
+PASS T030 S04 human_health_analysis absent
+PASS T031 S04 air_route_supported absent
+PASS T032 S04 claim_matches_measured_scope absent
+PASS T033 S04 essential_information_complete absent
+PASS T034 S04 temporal information removed
+PASS T035 S04 critical alternative added
+PASS T036 S04 title/background cannot bypass gates
+PASS T037 S05 record structure
+PASS T038 S05 deterministic replay
+PASS T039 S05 human_health_analysis absent
+PASS T040 S05 air_route_supported absent
+PASS T041 S05 claim_matches_measured_scope absent
+PASS T042 S05 essential_information_complete absent
+PASS T043 S05 temporal information removed
+PASS T044 S05 critical alternative added
+PASS T045 S05 title/background cannot bypass gates
+PASS T046 S06 record structure
+PASS T047 S06 deterministic replay
+PASS T048 S06 human_health_analysis absent
+PASS T049 S06 air_route_supported absent
+PASS T050 S06 claim_matches_measured_scope absent
+PASS T051 S06 essential_information_complete absent
+PASS T052 S06 temporal information removed
+PASS T053 S06 critical alternative added
+PASS T054 S06 title/background cannot bypass gates
+PASS T055 S07 record structure
+PASS T056 S07 deterministic replay
+PASS T057 S07 human_health_analysis absent
+PASS T058 S07 air_route_supported absent
+PASS T059 S07 claim_matches_measured_scope absent
+PASS T060 S07 essential_information_complete absent
+PASS T061 S07 temporal information removed
+PASS T062 S07 critical alternative added
+PASS T063 S07 title/background cannot bypass gates
+PASS T064 S08 record structure
+PASS T065 S08 deterministic replay
+PASS T066 S08 human_health_analysis absent
+PASS T067 S08 air_route_supported absent
+PASS T068 S08 claim_matches_measured_scope absent
+PASS T069 S08 essential_information_complete absent
+PASS T070 S08 temporal information removed
+PASS T071 S08 critical alternative added
+PASS T072 S08 title/background cannot bypass gates
+PASS T073 S09 record structure
+PASS T074 S09 deterministic replay
+PASS T075 S09 human_health_analysis absent
+PASS T076 S09 air_route_supported absent
+PASS T077 S09 claim_matches_measured_scope absent
+PASS T078 S09 essential_information_complete absent
+PASS T079 S09 temporal information removed
+PASS T080 S09 critical alternative added
+PASS T081 S09 title/background cannot bypass gates
+PASS T082 S10 record structure
+PASS T083 S10 deterministic replay
+PASS T084 S10 human_health_analysis absent
+PASS T085 S10 air_route_supported absent
+PASS T086 S10 claim_matches_measured_scope absent
+PASS T087 S10 essential_information_complete absent
+PASS T088 S10 temporal information removed
+PASS T089 S10 critical alternative added
+PASS T090 S10 title/background cannot bypass gates
+PASS T091 B01 abstention
+PASS T092 B02 abstention
+PASS T093 Controlled well-bounded example
+PASS T094 Controlled imprecise/null example
+PASS T095 Observational contrast does not reach R4
+PASS T096 Inadequate controls block upgrade
+PASS T097 Contradicted timing blocks upgrade
+PASS T098 Deliberately broken source pointer detected
+PASS T099 Missing Hill domain detected
+PASS T100 String instead of boolean rejected

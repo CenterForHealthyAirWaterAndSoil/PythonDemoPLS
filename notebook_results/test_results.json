@@ -1,0 +1,702 @@
+[
+  {
+    "test_id": "T001",
+    "name": "S01 record structure",
+    "category": "Record structure",
+    "passed": true,
+    "note": "Nine domains, valid inputs and registered evidence pointers; not source correctness."
+  },
+  {
+    "test_id": "T002",
+    "name": "S01 deterministic replay",
+    "category": "Deterministic replay",
+    "passed": true,
+    "note": "Identical structured inputs, not repeated AI extraction."
+  },
+  {
+    "test_id": "T003",
+    "name": "S01 human_health_analysis absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T004",
+    "name": "S01 air_route_supported absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T005",
+    "name": "S01 claim_matches_measured_scope absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T006",
+    "name": "S01 essential_information_complete absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T007",
+    "name": "S01 temporal information removed",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T008",
+    "name": "S01 critical alternative added",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T009",
+    "name": "S01 title/background cannot bypass gates",
+    "category": "Architecture invariant",
+    "passed": true,
+    "note": "Structured record perturbation only; no altered source was re-read by a model."
+  },
+  {
+    "test_id": "T010",
+    "name": "S02 record structure",
+    "category": "Record structure",
+    "passed": true,
+    "note": "Nine domains, valid inputs and registered evidence pointers; not source correctness."
+  },
+  {
+    "test_id": "T011",
+    "name": "S02 deterministic replay",
+    "category": "Deterministic replay",
+    "passed": true,
+    "note": "Identical structured inputs, not repeated AI extraction."
+  },
+  {
+    "test_id": "T012",
+    "name": "S02 human_health_analysis absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T013",
+    "name": "S02 air_route_supported absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T014",
+    "name": "S02 claim_matches_measured_scope absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T015",
+    "name": "S02 essential_information_complete absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T016",
+    "name": "S02 temporal information removed",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T017",
+    "name": "S02 critical alternative added",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T018",
+    "name": "S02 title/background cannot bypass gates",
+    "category": "Architecture invariant",
+    "passed": true,
+    "note": "Structured record perturbation only; no altered source was re-read by a model."
+  },
+  {
+    "test_id": "T019",
+    "name": "S03 record structure",
+    "category": "Record structure",
+    "passed": true,
+    "note": "Nine domains, valid inputs and registered evidence pointers; not source correctness."
+  },
+  {
+    "test_id": "T020",
+    "name": "S03 deterministic replay",
+    "category": "Deterministic replay",
+    "passed": true,
+    "note": "Identical structured inputs, not repeated AI extraction."
+  },
+  {
+    "test_id": "T021",
+    "name": "S03 human_health_analysis absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T022",
+    "name": "S03 air_route_supported absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T023",
+    "name": "S03 claim_matches_measured_scope absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T024",
+    "name": "S03 essential_information_complete absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T025",
+    "name": "S03 temporal information removed",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T026",
+    "name": "S03 critical alternative added",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T027",
+    "name": "S03 title/background cannot bypass gates",
+    "category": "Architecture invariant",
+    "passed": true,
+    "note": "Structured record perturbation only; no altered source was re-read by a model."
+  },
+  {
+    "test_id": "T028",
+    "name": "S04 record structure",
+    "category": "Record structure",
+    "passed": true,
+    "note": "Nine domains, valid inputs and registered evidence pointers; not source correctness."
+  },
+  {
+    "test_id": "T029",
+    "name": "S04 deterministic replay",
+    "category": "Deterministic replay",
+    "passed": true,
+    "note": "Identical structured inputs, not repeated AI extraction."
+  },
+  {
+    "test_id": "T030",
+    "name": "S04 human_health_analysis absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T031",
+    "name": "S04 air_route_supported absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T032",
+    "name": "S04 claim_matches_measured_scope absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T033",
+    "name": "S04 essential_information_complete absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T034",
+    "name": "S04 temporal information removed",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T035",
+    "name": "S04 critical alternative added",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T036",
+    "name": "S04 title/background cannot bypass gates",
+    "category": "Architecture invariant",
+    "passed": true,
+    "note": "Structured record perturbation only; no altered source was re-read by a model."
+  },
+  {
+    "test_id": "T037",
+    "name": "S05 record structure",
+    "category": "Record structure",
+    "passed": true,
+    "note": "Nine domains, valid inputs and registered evidence pointers; not source correctness."
+  },
+  {
+    "test_id": "T038",
+    "name": "S05 deterministic replay",
+    "category": "Deterministic replay",
+    "passed": true,
+    "note": "Identical structured inputs, not repeated AI extraction."
+  },
+  {
+    "test_id": "T039",
+    "name": "S05 human_health_analysis absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T040",
+    "name": "S05 air_route_supported absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T041",
+    "name": "S05 claim_matches_measured_scope absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T042",
+    "name": "S05 essential_information_complete absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T043",
+    "name": "S05 temporal information removed",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T044",
+    "name": "S05 critical alternative added",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T045",
+    "name": "S05 title/background cannot bypass gates",
+    "category": "Architecture invariant",
+    "passed": true,
+    "note": "Structured record perturbation only; no altered source was re-read by a model."
+  },
+  {
+    "test_id": "T046",
+    "name": "S06 record structure",
+    "category": "Record structure",
+    "passed": true,
+    "note": "Nine domains, valid inputs and registered evidence pointers; not source correctness."
+  },
+  {
+    "test_id": "T047",
+    "name": "S06 deterministic replay",
+    "category": "Deterministic replay",
+    "passed": true,
+    "note": "Identical structured inputs, not repeated AI extraction."
+  },
+  {
+    "test_id": "T048",
+    "name": "S06 human_health_analysis absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T049",
+    "name": "S06 air_route_supported absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T050",
+    "name": "S06 claim_matches_measured_scope absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T051",
+    "name": "S06 essential_information_complete absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T052",
+    "name": "S06 temporal information removed",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T053",
+    "name": "S06 critical alternative added",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T054",
+    "name": "S06 title/background cannot bypass gates",
+    "category": "Architecture invariant",
+    "passed": true,
+    "note": "Structured record perturbation only; no altered source was re-read by a model."
+  },
+  {
+    "test_id": "T055",
+    "name": "S07 record structure",
+    "category": "Record structure",
+    "passed": true,
+    "note": "Nine domains, valid inputs and registered evidence pointers; not source correctness."
+  },
+  {
+    "test_id": "T056",
+    "name": "S07 deterministic replay",
+    "category": "Deterministic replay",
+    "passed": true,
+    "note": "Identical structured inputs, not repeated AI extraction."
+  },
+  {
+    "test_id": "T057",
+    "name": "S07 human_health_analysis absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T058",
+    "name": "S07 air_route_supported absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T059",
+    "name": "S07 claim_matches_measured_scope absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T060",
+    "name": "S07 essential_information_complete absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T061",
+    "name": "S07 temporal information removed",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T062",
+    "name": "S07 critical alternative added",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T063",
+    "name": "S07 title/background cannot bypass gates",
+    "category": "Architecture invariant",
+    "passed": true,
+    "note": "Structured record perturbation only; no altered source was re-read by a model."
+  },
+  {
+    "test_id": "T064",
+    "name": "S08 record structure",
+    "category": "Record structure",
+    "passed": true,
+    "note": "Nine domains, valid inputs and registered evidence pointers; not source correctness."
+  },
+  {
+    "test_id": "T065",
+    "name": "S08 deterministic replay",
+    "category": "Deterministic replay",
+    "passed": true,
+    "note": "Identical structured inputs, not repeated AI extraction."
+  },
+  {
+    "test_id": "T066",
+    "name": "S08 human_health_analysis absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T067",
+    "name": "S08 air_route_supported absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T068",
+    "name": "S08 claim_matches_measured_scope absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T069",
+    "name": "S08 essential_information_complete absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T070",
+    "name": "S08 temporal information removed",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T071",
+    "name": "S08 critical alternative added",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T072",
+    "name": "S08 title/background cannot bypass gates",
+    "category": "Architecture invariant",
+    "passed": true,
+    "note": "Structured record perturbation only; no altered source was re-read by a model."
+  },
+  {
+    "test_id": "T073",
+    "name": "S09 record structure",
+    "category": "Record structure",
+    "passed": true,
+    "note": "Nine domains, valid inputs and registered evidence pointers; not source correctness."
+  },
+  {
+    "test_id": "T074",
+    "name": "S09 deterministic replay",
+    "category": "Deterministic replay",
+    "passed": true,
+    "note": "Identical structured inputs, not repeated AI extraction."
+  },
+  {
+    "test_id": "T075",
+    "name": "S09 human_health_analysis absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T076",
+    "name": "S09 air_route_supported absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T077",
+    "name": "S09 claim_matches_measured_scope absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T078",
+    "name": "S09 essential_information_complete absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T079",
+    "name": "S09 temporal information removed",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T080",
+    "name": "S09 critical alternative added",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T081",
+    "name": "S09 title/background cannot bypass gates",
+    "category": "Architecture invariant",
+    "passed": true,
+    "note": "Structured record perturbation only; no altered source was re-read by a model."
+  },
+  {
+    "test_id": "T082",
+    "name": "S10 record structure",
+    "category": "Record structure",
+    "passed": true,
+    "note": "Nine domains, valid inputs and registered evidence pointers; not source correctness."
+  },
+  {
+    "test_id": "T083",
+    "name": "S10 deterministic replay",
+    "category": "Deterministic replay",
+    "passed": true,
+    "note": "Identical structured inputs, not repeated AI extraction."
+  },
+  {
+    "test_id": "T084",
+    "name": "S10 human_health_analysis absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T085",
+    "name": "S10 air_route_supported absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T086",
+    "name": "S10 claim_matches_measured_scope absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T087",
+    "name": "S10 essential_information_complete absent",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T088",
+    "name": "S10 temporal information removed",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T089",
+    "name": "S10 critical alternative added",
+    "category": "Synthetic gate control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T090",
+    "name": "S10 title/background cannot bypass gates",
+    "category": "Architecture invariant",
+    "passed": true,
+    "note": "Structured record perturbation only; no altered source was re-read by a model."
+  },
+  {
+    "test_id": "T091",
+    "name": "B01 abstention",
+    "category": "Boundary rule",
+    "passed": true,
+    "note": "No complete full-text-based assessment was possible. The expected biomarker/air-route issue was not adjudicated from the abstract. A synthetic route-ambiguity control tests that rule separately."
+  },
+  {
+    "test_id": "T092",
+    "name": "B02 abstention",
+    "category": "Boundary rule",
+    "passed": true,
+    "note": "The publication characterizes VOC concentrations and sources in 126 homes of children with asthma. It does not estimate an observed VOC–asthma health association. Modeled risk characterization is not an observed clinical outcome."
+  },
+  {
+    "test_id": "T093",
+    "name": "Controlled well-bounded example",
+    "category": "Rule branch",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T094",
+    "name": "Controlled imprecise/null example",
+    "category": "Rule branch",
+    "passed": true,
+    "note": "Null effect direction alone is not proof of equivalence; precision gate is explicit."
+  },
+  {
+    "test_id": "T095",
+    "name": "Observational contrast does not reach R4",
+    "category": "Rule branch",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T096",
+    "name": "Inadequate controls block upgrade",
+    "category": "Rule branch",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T097",
+    "name": "Contradicted timing blocks upgrade",
+    "category": "Rule branch",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T098",
+    "name": "Deliberately broken source pointer detected",
+    "category": "Negative control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T099",
+    "name": "Missing Hill domain detected",
+    "category": "Negative control",
+    "passed": true,
+    "note": ""
+  },
+  {
+    "test_id": "T100",
+    "name": "String instead of boolean rejected",
+    "category": "Negative control",
+    "passed": true,
+    "note": ""
+  }
+]
