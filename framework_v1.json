@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "scope": "Study-specific interpretation of an airborne VOC-human health finding; not a chemical hazard classification or body-of-evidence conclusion",
+  "execution": "AI-executed, browser-assisted pilot; no human scientific review and no independent model validation",
+  "development_papers": ["Lan 2004", "Dwivedi 2015"],
+  "lock_note": "Rules recorded after development-paper review, before completing the remaining eight assessments. Discovery abstracts for candidate papers were already visible. This is not a blinded, preregistered or independent holdout evaluation.",
+  "domain_statuses": ["supportive", "contrary", "ambiguous", "not_reported", "not_applicable", "external_unverified"],
+  "hill_domains": ["strength", "consistency", "specificity", "temporality", "biological_gradient", "plausibility", "coherence", "experiment", "analogy"],
+  "input_fields": {
+    "human_health_analysis": "boolean",
+    "air_route_supported": "boolean",
+    "claim_matches_measured_scope": "boolean",
+    "essential_information_complete": "boolean",
+    "temporality": "supported|uncertain|contradicted",
+    "critical_alternative_explanation": "boolean; AI judgment with source-linked rationale, not a certified risk-of-bias rating",
+    "exposure_contrast": "controlled|quasi_experimental|observational",
+    "controls_adequate_for_narrow_claim": "boolean; cannot establish absence of residual confounding",
+    "robustness_support": "boolean; within-paper support, not independent replication",
+    "precision_sufficient_for_claim": "boolean; does not mean a nonsignificant result establishes no effect"
+  },
+  "rules_ordered": [
+    {"id": "R1", "condition": "Any eligibility/scope/information gate is false", "output": "Not assessable"},
+    {"id": "R2", "condition": "Temporality is not supported", "output": "Limited"},
+    {"id": "R3", "condition": "Critical alternative explanation is true OR controls adequate is false", "output": "Limited"},
+    {"id": "R4", "condition": "Controlled or quasi-experimental contrast AND robustness support AND precision sufficient", "output": "Stronger"},
+    {"id": "R5", "condition": "Otherwise, after passing the preceding gates", "output": "Moderate"}
+  ],
+  "null_result_rule": "Display the finding direction and uncertainty separately. A rating describes the interpretability of this finding, not support for a harmful effect. No equivalence or safety claim from nonsignificance.",
+  "context_rule": "Background cited by an article is unverified context and cannot upgrade the indicator. No external field-level rating.",
+  "exposure_rule": "Biomarker association alone does not establish an ambient or indoor air route. Do not conflate a VOC species with a correlated mixture.",
+  "design_rule": "No automatic rating solely from the design label. Timing and controls are assessed for the exact question.",
+  "index_question_rule": "Use stated primary objective when identifiable; otherwise select an explicitly described illustrative VOC-result contrast, record the selection, and do not call it prespecified by the original authors.",
+  "disclaimer": "AI-generated research assessment; not yet validated against human expert review."
+}

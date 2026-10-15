@@ -1,0 +1,50 @@
+[
+  {
+    "paper_id": "B01",
+    "short_citation": "Shook-Sa et al., 2017",
+    "type": "Access/information boundary",
+    "question": "Can this candidate support a specific airborne VOC–lung function causal assessment?",
+    "inputs": {
+      "human_health_analysis": true,
+      "air_route_supported": false,
+      "claim_matches_measured_scope": true,
+      "essential_information_complete": false,
+      "temporality": "uncertain",
+      "critical_alternative_explanation": false,
+      "exposure_contrast": "observational",
+      "controls_adequate_for_narrow_claim": true,
+      "robustness_support": false,
+      "precision_sufficient_for_claim": true
+    },
+    "decision": "Not assessable",
+    "rule": "R1",
+    "source_id": "B01",
+    "locator": "Candidate abstract/metadata; full-text access unsuccessful",
+    "reason": "No complete full-text-based assessment was possible. The expected biomarker/air-route issue was not adjudicated from the abstract. A synthetic route-ambiguity control tests that rule separately.",
+    "summary": "This candidate is retained to show an information-access abstention. The system does not manufacture a rating from an abstract or claim that the full paper establishes—or fails to establish—a particular exposure route."
+  },
+  {
+    "paper_id": "B02",
+    "short_citation": "Chin et al., 2014",
+    "type": "Exposure-only publication boundary",
+    "question": "Does this publication show that household VOCs caused asthma in the children whose homes were sampled?",
+    "inputs": {
+      "human_health_analysis": false,
+      "air_route_supported": true,
+      "claim_matches_measured_scope": false,
+      "essential_information_complete": true,
+      "temporality": "uncertain",
+      "critical_alternative_explanation": false,
+      "exposure_contrast": "observational",
+      "controls_adequate_for_narrow_claim": true,
+      "robustness_support": false,
+      "precision_sufficient_for_claim": true
+    },
+    "decision": "Not assessable",
+    "rule": "R1",
+    "source_id": "B02",
+    "locator": "Introduction objective; Methods 2.1–2.3; Results concentration/source and modeled-risk analyses",
+    "reason": "The publication characterizes VOC concentrations and sources in 126 homes of children with asthma. It does not estimate an observed VOC–asthma health association. Modeled risk characterization is not an observed clinical outcome.",
+    "summary": "Measuring air in the homes of children who have asthma does not by itself show that the measured chemicals caused their asthma. This paper is valuable for exposure characterization, but is not eligible for an observed exposure–health causal indicator for that question."
+  }
+]

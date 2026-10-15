@@ -1,0 +1,35 @@
+OFFLINE TEACHING REPLAY — NOT SCIENTIFIC VALIDATION
+
+STEP 1: Load the original AI-authored records.
+Publications: 10
+
+STEP 2: Inspect the exact acrolein question.
+Does 2-hour acrolein exposure at 0.1 ppm produce minor acute eye irritation in healthy adults compared with clean air?
+
+STEP 3: Apply the original rules to S02.
+('Stronger', 'R4')
+
+STEP 4: Hypothetical edit: temporality becomes uncertain.
+('Limited', 'R2')
+Original input unchanged: True
+
+STEP 5: Replay all ten publications.
+S01 | Lan et al., 2004 | Moderate | R5
+S02 | Dwivedi et al., 2015 | Stronger | R4
+S03 | Rumchev et al., 2004 | Limited | R2
+S04 | Roda et al., 2011 | Limited | R2
+S05 | Männistö et al., 2015 | Limited | R2
+S06 | Bard et al., 2014 | Limited | R3
+S07 | Choi et al., 2010 | Limited | R2
+S08 | Ezratty et al., 2007 | Moderate | R5
+S09 | Delfino et al., 2003 | Limited | R2
+S10 | Rumchev et al., 2002 | Limited | R2
+
+STEP 6: Inspect the test results.
+Computational checks: 100/100 passed
+Scientific accuracy estimated: False
+Expert review performed: False
+Source semantics automatically verified: False
+
+These checks concern records and rules. They are not 100% scientific accuracy.
+

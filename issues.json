@@ -1,0 +1,82 @@
+[
+  {
+    "issue_id": "I01",
+    "paper_ids": "S03; S10",
+    "category": "Dependence",
+    "finding": "Two publications share the Perth case-control population.",
+    "action": "Count 10 publications but 9 underlying study populations; do not score independent consistency from this pair.",
+    "status": "Recorded; linkage not independently expert-verified"
+  },
+  {
+    "issue_id": "I02",
+    "paper_ids": "S05",
+    "category": "Source inconsistency",
+    "finding": "Table 1 no-event header total conflicts with the Methods total.",
+    "action": "Use explicitly reported Methods N=223,502; retain header discrepancy without silent repair.",
+    "status": "Unresolved source discrepancy"
+  },
+  {
+    "issue_id": "I03",
+    "paper_ids": "S10",
+    "category": "Effect scaling",
+    "finding": "Continuous percentage/exposure-increment wording does not match the printed OR 1.003.",
+    "action": "Use categorical result for the demonstration; do not fabricate corrected continuous scaling or graphical CIs.",
+    "status": "Unresolved; priority for Phase 2"
+  },
+  {
+    "issue_id": "I04",
+    "paper_ids": "S07",
+    "category": "Corrections",
+    "finding": "Two publisher corrections address chemical naming and PGME isomer.",
+    "action": "Include both corrections; do not import beta-isomer toxicity into alpha-isomer interpretation.",
+    "status": "Corrections reviewed, not a full retraction audit"
+  },
+  {
+    "issue_id": "I05",
+    "paper_ids": "S08",
+    "category": "Null interpretation",
+    "finding": "No enhancement detected is not equivalence; PD15 has a dose ceiling.",
+    "action": "Separate finding direction from indicator; retain precision=false and prohibit safety extrapolation.",
+    "status": "Handled by bounded wording"
+  },
+  {
+    "issue_id": "I06",
+    "paper_ids": "S02",
+    "category": "Design label",
+    "finding": "Exposure sequence is described as balanced; random allocation was not explicitly confirmed.",
+    "action": "Call it controlled and balanced, not randomized.",
+    "status": "Unresolved allocation detail"
+  },
+  {
+    "issue_id": "I07",
+    "paper_ids": "S04",
+    "category": "Temporal rule",
+    "finding": "Birth-cohort label does not guarantee the annual exposure precedes every infection.",
+    "action": "Mark temporal ordering uncertain for the exact annual aggregate question.",
+    "status": "Provisional judgment for expert review"
+  },
+  {
+    "issue_id": "I08",
+    "paper_ids": "B01",
+    "category": "Access failure",
+    "finding": "Full text not retrieved after publisher and repository attempts.",
+    "action": "Abstain; no abstract-only scientific rating.",
+    "status": "Access unresolved"
+  },
+  {
+    "issue_id": "I09",
+    "paper_ids": "S06",
+    "category": "Chemical attribution",
+    "finding": "Self-matched lag analysis addresses stable confounding but not necessarily traffic-mixture attribution.",
+    "action": "Limited applies to benzene-specific question; retain positive temporal assessment.",
+    "status": "Provisional judgment for expert review"
+  },
+  {
+    "issue_id": "I10",
+    "paper_ids": "S07",
+    "category": "Exposure scale and sample",
+    "finding": "Table 4 reports a one-ln-unit contrast and analysis-specific sample smaller than recruitment.",
+    "action": "Use ln unit and adjusted N=155+167, not assume the IQR or all 400 recruits.",
+    "status": "Extracted from visually inspected table"
+  }
+]
