@@ -1,0 +1,57 @@
+{
+  "publications": 10,
+  "development": 2,
+  "demonstration": 8,
+  "distinct_study_families": 9,
+  "hill_domain_records": 90,
+  "evidence_records": 60,
+  "boundary_cases": 2,
+  "indicators": {
+    "Moderate": 2,
+    "Stronger": 1,
+    "Limited": 7
+  },
+  "triggered_rules": {
+    "R5": 2,
+    "R4": 1,
+    "R2": 6,
+    "R3": 1
+  },
+  "tests_total": 100,
+  "tests_passed": 100,
+  "test_categories": {
+    "Architecture invariant": {
+      "passed": 10,
+      "total": 10
+    },
+    "Boundary rule": {
+      "passed": 2,
+      "total": 2
+    },
+    "Deterministic replay": {
+      "passed": 10,
+      "total": 10
+    },
+    "Negative control": {
+      "passed": 3,
+      "total": 3
+    },
+    "Record structure": {
+      "passed": 10,
+      "total": 10
+    },
+    "Rule branch": {
+      "passed": 5,
+      "total": 5
+    },
+    "Synthetic gate control": {
+      "passed": 60,
+      "total": 60
+    }
+  },
+  "scientific_accuracy_estimated": false,
+  "expert_review_performed": false,
+  "independent_model_comparison": false,
+  "full_source_text_archived": false,
+  "source_semantics_automatically_verified": false
+}

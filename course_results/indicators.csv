@@ -1,0 +1,11 @@
+﻿paper_id,citation,role,cohort_family,indicator,triggered_rule,finding_direction
+S01,"Lan et al., 2004",Development,Tianjin_workers,Moderate,R5,Lower white-cell counts with exposure
+S02,"Dwivedi et al., 2015",Development,Acrolein_volunteers,Stronger,R4,Minor acute eye irritation increased
+S03,"Rumchev et al., 2004",Demonstration,Perth_1998_children,Limited,R2,Higher benzene associated with asthma case status
+S04,"Roda et al., 2011",Demonstration,PARIS_birth_cohort,Limited,R2,Higher exposure associated with LRI
+S05,"Männistö et al., 2015",Demonstration,Consortium_Safe_Labor,Limited,R2,Higher modeled exposure associated with events
+S06,"Bard et al., 2014",Demonstration,Strasbourg_MI_registry,Limited,R3,Higher preceding-day benzene associated with MI
+S07,"Choi et al., 2010",Demonstration,Sweden_Dampness_Buildings_Health,Limited,R2,Higher PGE mixture associated with case status
+S08,"Ezratty et al., 2007",Demonstration,Formaldehyde_asthma_volunteers,Moderate,R5,No enhancement detected; imprecise null-harm finding
+S09,"Delfino et al., 2003",Demonstration,Huntington_Park_child_panel,Limited,R2,Higher daily benzene associated with symptoms
+S10,"Rumchev et al., 2002",Demonstration,Perth_1998_children,Limited,R2,Higher formaldehyde associated with asthma case status

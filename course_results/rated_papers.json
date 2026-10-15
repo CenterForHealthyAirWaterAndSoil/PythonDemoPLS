@@ -1,0 +1,2010 @@
+[
+  {
+    "paper_id": "S01",
+    "short_citation": "Lan et al., 2004",
+    "role": "Development",
+    "source_ids": [
+      "S01"
+    ],
+    "title": "Hematotoxicity in Workers Exposed to Low Levels of Benzene. Science. 2004;306:1774–1776.",
+    "design": "Cross-sectional occupational study with prior personal air monitoring",
+    "cohort_family": "Tianjin_workers",
+    "setting": "Occupational",
+    "sample": "250 benzene-exposed and 140 comparison workers; 390 unique people. A subset contributed repeat observations.",
+    "index_question": "Among these workers, does occupational airborne benzene below 1 ppm contribute to lower circulating white-cell counts compared with the comparison workplaces?",
+    "index_selection": "Illustrative contrast within the stated hematotoxicity objective: total white blood cells, <1 ppm versus comparison workers; not a leukemia endpoint.",
+    "finding": {
+      "direction": "Lower white-cell counts with exposure",
+      "metric": "Unadjusted group means; adjusted significance test",
+      "contrast": "<1 ppm benzene versus comparison workplaces",
+      "estimate": "5,540 versus 6,480 cells/µL",
+      "lower": null,
+      "upper": null,
+      "interval_type": "SD, not CI: 1,220 and 1,710 cells/µL",
+      "p_value": "<0.0001 adjusted comparison",
+      "note": "Raw difference −940 cells/µL is not an adjusted effect estimate. No contrast-specific CI extracted."
+    },
+    "inputs": {
+      "human_health_analysis": true,
+      "air_route_supported": true,
+      "claim_matches_measured_scope": true,
+      "essential_information_complete": true,
+      "temporality": "supported",
+      "critical_alternative_explanation": false,
+      "exposure_contrast": "observational",
+      "controls_adequate_for_narrow_claim": true,
+      "robustness_support": true,
+      "precision_sufficient_for_claim": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "S01-E01",
+        "source_id": "S01",
+        "locator": "Methods; Table 1",
+        "text": "Personal benzene exposure was monitored repeatedly before blood sampling. The principal recent metric used measurements from the preceding month.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S01-E02",
+        "source_id": "S01",
+        "locator": "Table 1; Results",
+        "text": "The <1 ppm group had mean total white-cell count 5,540 (SD 1,220) cells/µL; comparison mean 6,480 (SD 1,710). The adjusted comparison was significant at P<0.0001.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S01-E03",
+        "source_id": "S01",
+        "locator": "Statistical methods; Results",
+        "text": "Models accounted for age, sex and relevant smoking, alcohol, BMI, infection and toluene variables; repeated observations were handled with GEE.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S01-E04",
+        "source_id": "S01",
+        "locator": "Results; low-exposure sensitivity analyses",
+        "text": "Findings persisted in restricted exposure-history and low-other-solvent analyses described in the main paper; white-cell trends were reported across exposure levels.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S01-E05",
+        "source_id": "S01",
+        "locator": "Results; progenitor colony assays",
+        "text": "A smaller subset supplied progenitor-cell assays, offering within-paper biological evidence but not randomized exposure.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S01-E06",
+        "source_id": "S01",
+        "locator": "Discussion; study design and background",
+        "text": "Current counts were compared across workplaces without pre-employment blood counts. External mechanistic/historical citations were not independently assessed.",
+        "statement_type": "Reported design plus AI interpretation"
+      }
+    ],
+    "hill": {
+      "strength": {
+        "status": "supportive",
+        "rationale": "An objectively measured count difference is present; effect size and adjusted testing are kept separate.",
+        "evidence_ids": [
+          "S01-E02"
+        ]
+      },
+      "consistency": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S01-E06"
+        ]
+      },
+      "specificity": {
+        "status": "ambiguous",
+        "rationale": "Multiple cell types and workplace exposures are involved; a one-to-one disease pattern is not required.",
+        "evidence_ids": [
+          "S01-E03",
+          "S01-E05",
+          "S01-E06"
+        ]
+      },
+      "temporality": {
+        "status": "supportive",
+        "rationale": "Monitored exposure preceded the blood draw; this does not establish when an individual’s count first changed.",
+        "evidence_ids": [
+          "S01-E01",
+          "S01-E06"
+        ]
+      },
+      "biological_gradient": {
+        "status": "supportive",
+        "rationale": "Exposure trends and low-exposure restrictions support a gradient, without proving removal of confounding.",
+        "evidence_ids": [
+          "S01-E04"
+        ]
+      },
+      "plausibility": {
+        "status": "supportive",
+        "rationale": "Within-paper progenitor assays offer biological support for the blood-count question, not a leukemia outcome.",
+        "evidence_ids": [
+          "S01-E05"
+        ]
+      },
+      "coherence": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S01-E06"
+        ]
+      },
+      "experiment": {
+        "status": "not_reported",
+        "rationale": "No assigned benzene exposure or exposure-reduction intervention.",
+        "evidence_ids": [
+          "S01-E01",
+          "S01-E06"
+        ]
+      },
+      "analogy": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S01-E06"
+        ]
+      }
+    },
+    "validity": "Objective air and blood measures and targeted restrictions strengthen interpretation. Workplace selection, unmeasured co-exposures and absence of pre-exposure blood counts remain concerns. No formal ROBINS-E judgment was performed.",
+    "support": "Repeated personal air monitoring before the blood draw; objective counts; adjusted and restricted analyses.",
+    "main_limitation": "Different workplaces and no pre-exposure blood counts leave residual alternative explanations.",
+    "scope_statement": "This indicator concerns white-cell counts in the sampled workers. It does not estimate leukemia incidence or a safe community concentration.",
+    "plain_language_summary": [
+      "Researchers compared blood-cell counts in 250 workers exposed to benzene at work with counts in 140 comparison workers. Air sampling was done before the blood tests. This makes the exposure information more informative than a single measurement taken after a health event. [S01, Methods; Table 1]",
+      "Workers in the below-1-part-per-million exposure group had an average white-cell count of 5,540 cells per microliter, compared with 6,480 in the comparison group. Those are unadjusted averages. The difference remained statistically apparent after accounting for several participant characteristics. The study also reported exposure trends and analyses restricting other solvent exposures. [S01, Table 1; Results]",
+      "The pilot assigns moderate study-level causal support to the blood-count finding. The timing, objective measurements and additional analyses make an exposure effect more credible, but they do not eliminate all differences between workplaces or workers. The study did not measure each worker’s blood counts before employment. A summary should therefore describe evidence of an effect on blood-cell counts, not claim that this study measured leukemia risk. The rating is an AI judgment under the proposed rules, not an expert conclusion about benzene as a whole."
+    ],
+    "issues": [],
+    "assessment_status": "AI assessment complete; expert validation pending",
+    "disclaimer": "AI-generated research assessment; not yet validated against human expert review.",
+    "input_rationale": {
+      "eligibility": {
+        "text": "Original human outcome analysis with measured/modeled air exposure and a narrowly matched question.",
+        "evidence_ids": [
+          "S01-E01",
+          "S01-E02"
+        ]
+      },
+      "temporality": {
+        "text": "Monitored exposure preceded the blood draw; this does not establish when an individual’s count first changed.",
+        "evidence_ids": [
+          "S01-E01",
+          "S01-E06"
+        ]
+      },
+      "alternative_explanations_and_controls": {
+        "text": "Objective air and blood measures and targeted restrictions strengthen interpretation. Workplace selection, unmeasured co-exposures and absence of pre-exposure blood counts remain concerns. No formal ROBINS-E judgment was performed.",
+        "evidence_ids": [
+          "S01-E04",
+          "S01-E05",
+          "S01-E06"
+        ]
+      },
+      "contrast_robustness_precision": {
+        "text": "Repeated personal air monitoring before the blood draw; objective counts; adjusted and restricted analyses. Raw difference −940 cells/µL is not an adjusted effect estimate. No contrast-specific CI extracted.",
+        "evidence_ids": [
+          "S01-E02",
+          "S01-E03",
+          "S01-E04",
+          "S01-E05",
+          "S01-E06"
+        ]
+      }
+    },
+    "indicator": "Moderate",
+    "triggered_rule": "R5"
+  },
+  {
+    "paper_id": "S02",
+    "short_citation": "Dwivedi et al., 2015",
+    "role": "Development",
+    "source_ids": [
+      "S02"
+    ],
+    "title": "Acute effects of acrolein in human volunteers during controlled exposure. Inhalation Toxicology. 2015;27:810–821.",
+    "design": "Controlled, balanced-sequence within-person chamber study",
+    "cohort_family": "Acrolein_volunteers",
+    "setting": "Controlled inhalation",
+    "sample": "18 healthy nonsmokers, 9 women and 9 men, aged 20–38; six 2-hour sessions. Separate preliminary pilot excluded from N.",
+    "index_question": "Does 2-hour acrolein exposure at 0.1 ppm produce minor acute eye irritation in healthy adults compared with clean air?",
+    "index_selection": "Index outcome selected from the stated acute-effect objective: eye irritation during exposure. Not a chronic disease or population threshold claim.",
+    "finding": {
+      "direction": "Minor acute eye irritation increased",
+      "metric": "Median 0–100 mm symptom ratings",
+      "contrast": "0, 0.05 and 0.1 ppm acrolein at 118 minutes",
+      "estimate": "0, 1.5 and 8 mm, respectively",
+      "lower": null,
+      "upper": null,
+      "interval_type": "No contrast-specific CI extracted",
+      "p_value": "<0.001 overall repeated-condition test",
+      "note": "Figure means must not be confused with the reported medians; change is small in absolute terms."
+    },
+    "inputs": {
+      "human_health_analysis": true,
+      "air_route_supported": true,
+      "claim_matches_measured_scope": true,
+      "essential_information_complete": true,
+      "temporality": "supported",
+      "critical_alternative_explanation": false,
+      "exposure_contrast": "controlled",
+      "controls_adequate_for_narrow_claim": true,
+      "robustness_support": true,
+      "precision_sufficient_for_claim": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "S02-E01",
+        "source_id": "S02",
+        "locator": "Methods, pp. 811–813; Table 1",
+        "text": "Eighteen healthy nonsmokers completed six 2-hour sessions, at least one week apart: clean air, 0.05 and 0.1 ppm acrolein, with and without an ethyl-acetate odor mask. Sequence described as balanced; random allocation not explicitly established.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S02-E02",
+        "source_id": "S02",
+        "locator": "Table 1, p. 812",
+        "text": "Chamber concentrations were measured, rather than relying only on nominal settings.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S02-E03",
+        "source_id": "S02",
+        "locator": "Results, p. 814; Figure 2",
+        "text": "At 118 minutes, median eye-irritation ratings were 0, 1.5 and 8 mm on a 100-mm scale at 0, 0.05 and 0.1 ppm; the overall test had P<0.001.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S02-E04",
+        "source_id": "S02",
+        "locator": "Results; symptom time course and odor masking",
+        "text": "The odor-mask condition did not account for the acrolein eye-irritation pattern, and ratings declined after exposure stopped.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S02-E05",
+        "source_id": "S02",
+        "locator": "Results; lung function and inflammation",
+        "text": "Other tested lung-function and inflammatory measures did not show clear exposure effects. These results do not establish long-term safety.",
+        "statement_type": "Reported result plus AI scope limit"
+      },
+      {
+        "evidence_id": "S02-E06",
+        "source_id": "S02",
+        "locator": "Discussion; protocol scope",
+        "text": "The exposure was brief, at rest, in healthy adults. Background mechanisms and outside studies were not independently appraised.",
+        "statement_type": "Reported design plus AI interpretation"
+      }
+    ],
+    "hill": {
+      "strength": {
+        "status": "supportive",
+        "rationale": "The measured effect is small but experimentally separated from clean air; small magnitude does not automatically imply weak attribution.",
+        "evidence_ids": [
+          "S02-E03"
+        ]
+      },
+      "consistency": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S02-E06"
+        ]
+      },
+      "specificity": {
+        "status": "ambiguous",
+        "rationale": "The eye outcome showed a pattern not shared by all tested outcomes; this is not proof of exclusive biological specificity.",
+        "evidence_ids": [
+          "S02-E03",
+          "S02-E05"
+        ]
+      },
+      "temporality": {
+        "status": "supportive",
+        "rationale": "Assigned exposure occurred before and during symptom measurements, with post-exposure follow-up.",
+        "evidence_ids": [
+          "S02-E01",
+          "S02-E04"
+        ]
+      },
+      "biological_gradient": {
+        "status": "supportive",
+        "rationale": "Eye-irritation ratings increased across the tested concentrations.",
+        "evidence_ids": [
+          "S02-E03"
+        ]
+      },
+      "plausibility": {
+        "status": "external_unverified",
+        "rationale": "The observed irritation is directly demonstrated; a molecular mechanism was not separately established in this pilot.",
+        "evidence_ids": [
+          "S02-E03",
+          "S02-E06"
+        ]
+      },
+      "coherence": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S02-E06"
+        ]
+      },
+      "experiment": {
+        "status": "supportive",
+        "rationale": "Within-person exposure control, measured concentrations and masking provide direct experimental leverage; randomization is not asserted.",
+        "evidence_ids": [
+          "S02-E01",
+          "S02-E02",
+          "S02-E04"
+        ]
+      },
+      "analogy": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S02-E06"
+        ]
+      }
+    },
+    "validity": "Within-person control and odor masking address important alternatives for a narrow acute symptom question. Subjective ratings, small N and incomplete sequence-randomization information remain limitations. Precision is judged adequate only for the existence of a small acute symptom change, not a population threshold.",
+    "support": "Controlled exposure, concentration measurements, within-person comparison and a dose-related eye-irritation pattern.",
+    "main_limitation": "Small healthy-adult sample, subjective symptoms and brief exposure; sequence randomization not confirmed.",
+    "scope_statement": "Stronger support refers only to minor acute eye irritation under these conditions—not chronic respiratory or cardiovascular disease.",
+    "plain_language_summary": [
+      "Eighteen healthy adults took part in six chamber sessions. Each lasted two hours and tested clean air or one of two acrolein concentrations. Sessions also tested an odor-masking chemical, helping separate irritation from simply noticing a smell. The paper describes a balanced session order, but this pilot does not label it randomized. [S02, Methods; Table 1]",
+      "Near the end of exposure, the median eye-irritation rating was 0 out of 100 with clean air, 1.5 with 0.05 parts per million acrolein, and 8 with 0.1 parts per million. Ratings declined after exposure stopped. The odor-masking condition did not explain the pattern. The absolute symptom change was small. [S02, Results; Figure 2]",
+      "This is the pilot’s stronger-support example because the researchers controlled the exposure and compared the same people across conditions. Stronger attribution does not mean a large health effect. The conclusion is restricted to minor eye irritation in healthy adults during a short exposure. It cannot establish effects in children, effects from long-term community exposure, or a concentration that is safe for everyone. Other measures without detected changes should not be turned into a broad claim that acrolein causes no harm."
+    ],
+    "issues": [
+      "I06"
+    ],
+    "assessment_status": "AI assessment complete; expert validation pending",
+    "disclaimer": "AI-generated research assessment; not yet validated against human expert review.",
+    "input_rationale": {
+      "eligibility": {
+        "text": "Original human outcome analysis with measured/modeled air exposure and a narrowly matched question.",
+        "evidence_ids": [
+          "S02-E01",
+          "S02-E02"
+        ]
+      },
+      "temporality": {
+        "text": "Assigned exposure occurred before and during symptom measurements, with post-exposure follow-up.",
+        "evidence_ids": [
+          "S02-E01",
+          "S02-E04"
+        ]
+      },
+      "alternative_explanations_and_controls": {
+        "text": "Within-person control and odor masking address important alternatives for a narrow acute symptom question. Subjective ratings, small N and incomplete sequence-randomization information remain limitations. Precision is judged adequate only for the existence of a small acute symptom change, not a population threshold.",
+        "evidence_ids": [
+          "S02-E04",
+          "S02-E05",
+          "S02-E06"
+        ]
+      },
+      "contrast_robustness_precision": {
+        "text": "Controlled exposure, concentration measurements, within-person comparison and a dose-related eye-irritation pattern. Figure means must not be confused with the reported medians; change is small in absolute terms.",
+        "evidence_ids": [
+          "S02-E02",
+          "S02-E03",
+          "S02-E04",
+          "S02-E05",
+          "S02-E06"
+        ]
+      }
+    },
+    "indicator": "Stronger",
+    "triggered_rule": "R4"
+  },
+  {
+    "paper_id": "S03",
+    "short_citation": "Rumchev et al., 2004",
+    "role": "Demonstration",
+    "source_ids": [
+      "S03"
+    ],
+    "title": "Association of domestic exposure to volatile organic compounds with asthma in young children. Thorax. 2004;59:746–751.",
+    "design": "Case-control study with post-event household measurements",
+    "cohort_family": "Perth_1998_children",
+    "setting": "Indoor residential",
+    "sample": "88 asthma cases and 104 controls aged 6 months–3 years; same study population as S10.",
+    "index_question": "Does household airborne benzene contribute to asthma case status in these young children?",
+    "index_selection": "Illustrative benzene contrast from the paper’s multiple-VOC objective; mutually VOC-adjusted model, not a prespecified single primary chemical.",
+    "finding": {
+      "direction": "Higher benzene associated with asthma case status",
+      "metric": "Adjusted odds ratio",
+      "contrast": "Per 1 µg/m³ benzene, mutually VOC-adjusted model",
+      "estimate": 1.09,
+      "lower": 1.06,
+      "upper": 1.12,
+      "interval_type": "95% confidence interval",
+      "p_value": null,
+      "note": "Table 3 mutually adjusted estimate. Odds ratio, not risk ratio; do not substitute the abstract’s larger per-10-unit description."
+    },
+    "inputs": {
+      "human_health_analysis": true,
+      "air_route_supported": true,
+      "claim_matches_measured_scope": true,
+      "essential_information_complete": true,
+      "temporality": "uncertain",
+      "critical_alternative_explanation": false,
+      "exposure_contrast": "observational",
+      "controls_adequate_for_narrow_claim": true,
+      "robustness_support": false,
+      "precision_sufficient_for_claim": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "S03-E01",
+        "source_id": "S03",
+        "locator": "Methods; recruitment",
+        "text": "Eighty-eight children discharged with an asthma diagnosis were compared with 104 community controls. Participants were 6 months–3 years old.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S03-E02",
+        "source_id": "S03",
+        "locator": "Methods; exposure assessment",
+        "text": "Living-room air was sampled within two weeks after the emergency presentation and again in the opposite season; ten VOCs were analyzed.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S03-E03",
+        "source_id": "S03",
+        "locator": "Table 3; benzene row, mutually adjusted model",
+        "text": "Benzene OR was 1.09, 95% CI 1.06–1.12, per 1 µg/m³ in the model also accounting for other measured VOCs.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S03-E04",
+        "source_id": "S03",
+        "locator": "Methods; statistical analysis; Table 3 footnote",
+        "text": "Adjustment included demographic, smoking, home-condition, atopy and family-history variables, with an additional mutually VOC-adjusted model.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S03-E05",
+        "source_id": "S03",
+        "locator": "Discussion and companion-study reference",
+        "text": "Asthma/wheeze classification in very young children and selection of emergency cases affect interpretation. Household sampling after the event cannot establish pre-onset exposure.",
+        "statement_type": "Reported design plus AI interpretation"
+      },
+      {
+        "evidence_id": "S03-E06",
+        "source_id": "S03",
+        "locator": "Methods; Perth recruitment context",
+        "text": "The case/control numbers, ages, place and recruitment period match the formaldehyde companion report S10; they are not independent replications.",
+        "statement_type": "Cross-publication AI linkage"
+      }
+    ],
+    "hill": {
+      "strength": {
+        "status": "supportive",
+        "rationale": "A positive adjusted association is reported with a narrow model-based interval; bias is not reflected by that interval.",
+        "evidence_ids": [
+          "S03-E03"
+        ]
+      },
+      "consistency": {
+        "status": "external_unverified",
+        "rationale": "S10 shares the underlying population; neither it nor cited background is counted as independent replication.",
+        "evidence_ids": [
+          "S03-E06"
+        ]
+      },
+      "specificity": {
+        "status": "ambiguous",
+        "rationale": "VOC mutual adjustment is relevant to attribution, but correlated mixtures and diagnosis ambiguity remain.",
+        "evidence_ids": [
+          "S03-E04",
+          "S03-E05"
+        ]
+      },
+      "temporality": {
+        "status": "ambiguous",
+        "rationale": "Sampling follows the emergency event. Seasonal repeat sampling does not establish the relevant pre-onset exposure.",
+        "evidence_ids": [
+          "S03-E02",
+          "S03-E05"
+        ]
+      },
+      "biological_gradient": {
+        "status": "ambiguous",
+        "rationale": "A continuous exposure coefficient does not by itself demonstrate a separately observed dose-response shape.",
+        "evidence_ids": [
+          "S03-E03"
+        ]
+      },
+      "plausibility": {
+        "status": "not_reported",
+        "rationale": "No direct evidence for this viewpoint was used for the index question.",
+        "evidence_ids": [
+          "S03-E06"
+        ]
+      },
+      "coherence": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S03-E06"
+        ]
+      },
+      "experiment": {
+        "status": "not_reported",
+        "rationale": "No assigned or reduced exposure.",
+        "evidence_ids": [
+          "S03-E01",
+          "S03-E02"
+        ]
+      },
+      "analogy": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S03-E06"
+        ]
+      }
+    },
+    "validity": "Air rather than biomarker-only exposure was assessed. Post-event timing, young-child case definition and possible correlated household exposures limit a benzene-specific causal inference.",
+    "support": "Measured indoor air and covariate-adjusted analyses, including a model with other VOCs.",
+    "main_limitation": "The first air measurement followed the asthma-related emergency presentation.",
+    "scope_statement": "A positive association with case status is not proof that benzene caused a child to develop asthma.",
+    "plain_language_summary": [
+      "This Perth study compared 88 young children treated for asthma with 104 children without an asthma diagnosis. Researchers measured VOCs in their homes. The first measurement took place within two weeks after the emergency visit, with a second measurement in another season. [S03, Methods]",
+      "Higher benzene was associated with asthma case status. In the model accounting for other measured VOCs, the odds ratio was 1.09 per 1 microgram per cubic meter, with a 95% confidence interval of 1.06–1.12. An odds ratio is not the same as the percentage increase in a child’s probability of asthma. [S03, Table 3]",
+      "The pilot assigns limited causal support because the crucial air measurements came after the health event. Measuring the home twice improves the exposure description, but it cannot show what the child breathed before asthma developed. Differences between families, correlated chemicals and difficulty distinguishing asthma from other wheezing illnesses at this age remain relevant. The study is informative about an association; its timing is insufficient for a strong causal conclusion. This paper also shares its participants with the 2002 formaldehyde report in this pilot. The two reports should not be described as two independent confirmations."
+    ],
+    "issues": [
+      "I01"
+    ],
+    "assessment_status": "AI assessment complete; expert validation pending",
+    "disclaimer": "AI-generated research assessment; not yet validated against human expert review.",
+    "input_rationale": {
+      "eligibility": {
+        "text": "Original human outcome analysis with measured/modeled air exposure and a narrowly matched question.",
+        "evidence_ids": [
+          "S03-E01",
+          "S03-E02"
+        ]
+      },
+      "temporality": {
+        "text": "Sampling follows the emergency event. Seasonal repeat sampling does not establish the relevant pre-onset exposure.",
+        "evidence_ids": [
+          "S03-E02",
+          "S03-E05"
+        ]
+      },
+      "alternative_explanations_and_controls": {
+        "text": "Air rather than biomarker-only exposure was assessed. Post-event timing, young-child case definition and possible correlated household exposures limit a benzene-specific causal inference.",
+        "evidence_ids": [
+          "S03-E04",
+          "S03-E05",
+          "S03-E06"
+        ]
+      },
+      "contrast_robustness_precision": {
+        "text": "Measured indoor air and covariate-adjusted analyses, including a model with other VOCs. Table 3 mutually adjusted estimate. Odds ratio, not risk ratio; do not substitute the abstract’s larger per-10-unit description.",
+        "evidence_ids": [
+          "S03-E02",
+          "S03-E03",
+          "S03-E04",
+          "S03-E05",
+          "S03-E06"
+        ]
+      }
+    },
+    "indicator": "Limited",
+    "triggered_rule": "R2"
+  },
+  {
+    "paper_id": "S04",
+    "short_citation": "Roda et al., 2011",
+    "role": "Demonstration",
+    "source_ids": [
+      "S04"
+    ],
+    "title": "Formaldehyde Exposure and Lower Respiratory Infections in Infants: Findings from the PARIS Cohort Study. Environmental Health Perspectives. 2011;119:1653–1658.",
+    "design": "Birth cohort with predicted annual indoor exposure",
+    "cohort_family": "PARIS_birth_cohort",
+    "setting": "Indoor residential",
+    "sample": "2,940 infants analyzed; direct formaldehyde measurements in a 196-home sample; annual means available in 174 dwellings.",
+    "index_question": "Does indoor formaldehyde exposure during the first year contribute to lower respiratory infections during that year?",
+    "index_selection": "Primary infection objective; index is any LRI rather than the wheezy-LRI subgroup.",
+    "finding": {
+      "direction": "Higher exposure associated with LRI",
+      "metric": "Adjusted odds ratio",
+      "contrast": "Per 12.4 µg/m³ increase (exposure IQR)",
+      "estimate": 1.32,
+      "lower": 1.11,
+      "upper": 1.55,
+      "interval_type": "95% confidence interval",
+      "p_value": null,
+      "note": "Multiple-imputation sensitivity: OR 1.16, 95% credible interval 1.04–1.29. LRI was common; do not present the OR as a risk ratio."
+    },
+    "inputs": {
+      "human_health_analysis": true,
+      "air_route_supported": true,
+      "claim_matches_measured_scope": true,
+      "essential_information_complete": true,
+      "temporality": "uncertain",
+      "critical_alternative_explanation": false,
+      "exposure_contrast": "observational",
+      "controls_adequate_for_narrow_claim": true,
+      "robustness_support": true,
+      "precision_sufficient_for_claim": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "S04-E01",
+        "source_id": "S04",
+        "locator": "Methods; study design and population",
+        "text": "The analysis included 2,940 infants with exposure estimates and first-year infection information. Parents completed repeated questionnaires.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S04-E02",
+        "source_id": "S04",
+        "locator": "Methods; formaldehyde measurements and exposure modeling",
+        "text": "Seasonal bedroom samples in a subset informed a model predicting annual concentrations from dwelling characteristics. Exposure and infection windows both covered the first year.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S04-E03",
+        "source_id": "S04",
+        "locator": "Table 4; continuous exposure and LRI",
+        "text": "The adjusted LRI OR per 12.4 µg/m³ was 1.32 (95% CI 1.11–1.55).",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S04-E04",
+        "source_id": "S04",
+        "locator": "Methods; health models and risk factors",
+        "text": "Models included smoking, siblings, daycare, breastfeeding, parental asthma, sex, socioeconomic conditions and other home factors.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S04-E05",
+        "source_id": "S04",
+        "locator": "Results; multiple-imputation sensitivity analysis",
+        "text": "Accounting for exposure-prediction uncertainty yielded LRI OR 1.16 with 95% credible interval 1.04–1.29.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S04-E06",
+        "source_id": "S04",
+        "locator": "Discussion; exposure limitations and follow-up",
+        "text": "Most exposures were predicted, and the full original birth cohort was not in the final analysis. A birth-cohort label alone does not resolve exposure-before-event timing for an annual aggregate.",
+        "statement_type": "Reported design plus AI interpretation"
+      }
+    ],
+    "hill": {
+      "strength": {
+        "status": "supportive",
+        "rationale": "The association is positive, but attenuates when exposure-prediction uncertainty is handled differently.",
+        "evidence_ids": [
+          "S04-E03",
+          "S04-E05"
+        ]
+      },
+      "consistency": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S04-E06"
+        ]
+      },
+      "specificity": {
+        "status": "ambiguous",
+        "rationale": "The chemical-specific exposure model may also capture broader dwelling conditions.",
+        "evidence_ids": [
+          "S04-E02",
+          "S04-E04"
+        ]
+      },
+      "temporality": {
+        "status": "ambiguous",
+        "rationale": "Annual exposure averages overlap the period when infections occurred; event-specific pre-infection exposure is not the index analysis.",
+        "evidence_ids": [
+          "S04-E02"
+        ]
+      },
+      "biological_gradient": {
+        "status": "ambiguous",
+        "rationale": "A continuous association is modeled; it does not independently establish a dose-response curve.",
+        "evidence_ids": [
+          "S04-E03"
+        ]
+      },
+      "plausibility": {
+        "status": "not_reported",
+        "rationale": "No direct evidence for this viewpoint was used for the index question.",
+        "evidence_ids": [
+          "S04-E06"
+        ]
+      },
+      "coherence": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S04-E06"
+        ]
+      },
+      "experiment": {
+        "status": "not_reported",
+        "rationale": "No exposure intervention.",
+        "evidence_ids": [
+          "S04-E01",
+          "S04-E02"
+        ]
+      },
+      "analogy": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S04-E06"
+        ]
+      }
+    },
+    "validity": "Repeated health follow-up and uncertainty sensitivity analysis are assets. Predicted exposure for most homes, overlapping exposure/outcome windows and attrition require caution. The temporal judgment is a provisional interpretation for expert testing.",
+    "support": "Repeated health questionnaires, an air-measured calibration subset and an uncertainty-aware sensitivity analysis.",
+    "main_limitation": "Most exposure values were predicted, and annual exposure and infection windows overlapped.",
+    "scope_statement": "The result concerns odds of first-year reported LRI; it is not a demonstrated increase in absolute infection risk.",
+    "plain_language_summary": [
+      "Researchers followed infants in the PARIS birth cohort and analyzed first-year respiratory infections in 2,940 children. They measured formaldehyde in a smaller set of homes and used home characteristics to estimate exposure for the larger group. Parents reported illnesses in repeated questionnaires. [S04, Methods]",
+      "A 12.4-microgram-per-cubic-meter increase in estimated formaldehyde was associated with an odds ratio of 1.32 for lower respiratory infection, with a 95% confidence interval of 1.11–1.55. A separate analysis allowing more uncertainty in predicted exposure gave a smaller estimate. Because infections were common, the main odds ratio should not be rewritten as a 32% increase in absolute or relative infection risk. [S04, Table 4; sensitivity analysis]",
+      "The pilot assigns limited causal support to the annual exposure–infection question. The repeated follow-up is helpful, but the yearly exposure estimate overlaps the year in which infections occurred. It does not establish the exposure immediately before each infection. Most homes also lacked direct measurements. These are reasons to preserve uncertainty, not reasons to discard the study. A future expert review should specifically examine whether this strict temporal rule is too conservative for the exposure model used here."
+    ],
+    "issues": [
+      "I07"
+    ],
+    "assessment_status": "AI assessment complete; expert validation pending",
+    "disclaimer": "AI-generated research assessment; not yet validated against human expert review.",
+    "input_rationale": {
+      "eligibility": {
+        "text": "Original human outcome analysis with measured/modeled air exposure and a narrowly matched question.",
+        "evidence_ids": [
+          "S04-E01",
+          "S04-E02"
+        ]
+      },
+      "temporality": {
+        "text": "Annual exposure averages overlap the period when infections occurred; event-specific pre-infection exposure is not the index analysis.",
+        "evidence_ids": [
+          "S04-E02"
+        ]
+      },
+      "alternative_explanations_and_controls": {
+        "text": "Repeated health follow-up and uncertainty sensitivity analysis are assets. Predicted exposure for most homes, overlapping exposure/outcome windows and attrition require caution. The temporal judgment is a provisional interpretation for expert testing.",
+        "evidence_ids": [
+          "S04-E04",
+          "S04-E05",
+          "S04-E06"
+        ]
+      },
+      "contrast_robustness_precision": {
+        "text": "Repeated health questionnaires, an air-measured calibration subset and an uncertainty-aware sensitivity analysis. Multiple-imputation sensitivity: OR 1.16, 95% credible interval 1.04–1.29. LRI was common; do not present the OR as a risk ratio.",
+        "evidence_ids": [
+          "S04-E02",
+          "S04-E03",
+          "S04-E04",
+          "S04-E05",
+          "S04-E06"
+        ]
+      }
+    },
+    "indicator": "Limited",
+    "triggered_rule": "R2"
+  },
+  {
+    "paper_id": "S05",
+    "short_citation": "Männistö et al., 2015",
+    "role": "Demonstration",
+    "source_ids": [
+      "S05"
+    ],
+    "title": "Acute and recent air pollution exposure and cardiovascular events at labour and delivery. Heart. 2015;101:1491–1498.",
+    "design": "Retrospective delivery cohort with modeled regional air exposure",
+    "cohort_family": "Consortium_Safe_Labor",
+    "setting": "Ambient regional",
+    "sample": "223,502 singleton deliveries in Methods; 687 event pregnancies among 681 women. Table 1 comparison-column total is inconsistent.",
+    "index_question": "Does high ambient ethylbenzene five days before delivery contribute to cardiovascular events during the delivery admission?",
+    "index_selection": "Illustrative exploratory VOC contrast selected from the Results, not the paper’s sole prespecified exposure/lag.",
+    "finding": {
+      "direction": "Higher modeled exposure associated with events",
+      "metric": "Adjusted odds ratio",
+      "contrast": "Ethylbenzene ≥75th percentile versus lower; 5-day lag",
+      "estimate": 1.5,
+      "lower": 1.08,
+      "upper": 2.09,
+      "interval_type": "99% confidence interval",
+      "p_value": null,
+      "note": "99%, not 95%, interval. Event timing is proxied by delivery time; VOC estimate is not a mutually VOC-adjusted model."
+    },
+    "inputs": {
+      "human_health_analysis": true,
+      "air_route_supported": true,
+      "claim_matches_measured_scope": true,
+      "essential_information_complete": true,
+      "temporality": "uncertain",
+      "critical_alternative_explanation": true,
+      "exposure_contrast": "observational",
+      "controls_adequate_for_narrow_claim": false,
+      "robustness_support": false,
+      "precision_sufficient_for_claim": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "S05-E01",
+        "source_id": "S05",
+        "locator": "Methods; study population; Results",
+        "text": "Methods identify 223,502 singleton deliveries and Results identify 687 event pregnancies among 681 women.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S05-E02",
+        "source_id": "S05",
+        "locator": "Methods; exposure and outcome assessment",
+        "text": "VOC concentrations were modeled for hospital referral regions, not measured personally. Delivery time was used as a proxy for cardiovascular-event time.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S05-E03",
+        "source_id": "S05",
+        "locator": "Results; Figure 5 description",
+        "text": "High ethylbenzene at lag 5 had OR 1.50, 99% CI 1.08–2.09, for any cardiovascular event.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S05-E04",
+        "source_id": "S05",
+        "locator": "Methods; statistical analyses; Figure 5 caption",
+        "text": "VOC models accounted for site and participant factors. The reported multipollutant models for criteria pollutants do not establish equivalent mutual VOC adjustment.",
+        "statement_type": "Reported plus AI model distinction"
+      },
+      {
+        "evidence_id": "S05-E05",
+        "source_id": "S05",
+        "locator": "Discussion; limitations",
+        "text": "Many pollutants/lags were explored; the paper uses 99% intervals, but the selected result remains exploratory. Exact clinical-event timing was unavailable.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S05-E06",
+        "source_id": "S05",
+        "locator": "Table 1 versus Methods",
+        "text": "The no-event column header reads 228,815, inconsistent with the Methods total of 223,502. The pilot uses the explicit Methods total and retains the discrepancy.",
+        "statement_type": "AI consistency flag grounded in source"
+      }
+    ],
+    "hill": {
+      "strength": {
+        "status": "supportive",
+        "rationale": "A positive exploratory estimate with a 99% interval is reported; precision does not resolve chemical attribution.",
+        "evidence_ids": [
+          "S05-E03",
+          "S05-E05"
+        ]
+      },
+      "consistency": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S05-E06"
+        ]
+      },
+      "specificity": {
+        "status": "ambiguous",
+        "rationale": "Regional exposure and correlated VOCs prevent assigning the observed signal uniquely to ethylbenzene.",
+        "evidence_ids": [
+          "S05-E02",
+          "S05-E04"
+        ]
+      },
+      "temporality": {
+        "status": "ambiguous",
+        "rationale": "Lag is anchored to delivery, not an observed time of each cardiovascular event.",
+        "evidence_ids": [
+          "S05-E02",
+          "S05-E05"
+        ]
+      },
+      "biological_gradient": {
+        "status": "not_reported",
+        "rationale": "A high-versus-lower exposure comparison does not demonstrate a full exposure-response gradient.",
+        "evidence_ids": [
+          "S05-E03"
+        ]
+      },
+      "plausibility": {
+        "status": "not_reported",
+        "rationale": "No direct evidence for this viewpoint was used for the index question.",
+        "evidence_ids": [
+          "S05-E06"
+        ]
+      },
+      "coherence": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S05-E06"
+        ]
+      },
+      "experiment": {
+        "status": "not_reported",
+        "rationale": "No controlled exposure contrast.",
+        "evidence_ids": [
+          "S05-E01",
+          "S05-E02"
+        ]
+      },
+      "analogy": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S05-E06"
+        ]
+      }
+    },
+    "validity": "Large clinical cohort does not offset regional exposure proxies, uncertain event timing, multiple exploratory contrasts or co-pollutant attribution. Confounder sensitivity statements from the overall analysis are not assumed to validate this specific VOC.",
+    "support": "Clinical event records, a large cohort and exposure estimates for days preceding delivery.",
+    "main_limitation": "Delivery substitutes for event time; regional mixed exposures do not isolate ethylbenzene.",
+    "scope_statement": "This is an exploratory association during the delivery admission, not a general estimate of pregnancy cardiovascular risk.",
+    "plain_language_summary": [
+      "This study linked delivery records with modeled air pollution across hospital referral regions. The Methods describe 223,502 singleton deliveries, including 687 pregnancies with a cardiovascular event during the hospital admission. Researchers examined many pollutants and time windows. [S05, Methods; Results]",
+      "For the example selected in this pilot, high ethylbenzene five days before delivery was associated with higher event odds: an odds ratio of 1.50, with a 99% confidence interval of 1.08–2.09. The 99% level is important and should not be silently changed to 95%. This was one exploratory VOC result, not the study’s only exposure question. [S05, Results; Figure 5]",
+      "The pilot assigns limited causal support. Exposure was modeled over large regions, and delivery time stood in for the actual time of each cardiovascular event. The selected chemical may also track other air pollutants. The large sample makes the association worth examining, but does not solve these problems. The evidence record additionally preserves a mismatch between a table’s participant total and the Methods total. No correction was invented. These qualifications keep a plain-language summary from implying that the study established a specific chemical trigger."
+    ],
+    "issues": [
+      "I02"
+    ],
+    "assessment_status": "AI assessment complete; expert validation pending",
+    "disclaimer": "AI-generated research assessment; not yet validated against human expert review.",
+    "input_rationale": {
+      "eligibility": {
+        "text": "Original human outcome analysis with measured/modeled air exposure and a narrowly matched question.",
+        "evidence_ids": [
+          "S05-E01",
+          "S05-E02"
+        ]
+      },
+      "temporality": {
+        "text": "Lag is anchored to delivery, not an observed time of each cardiovascular event.",
+        "evidence_ids": [
+          "S05-E02",
+          "S05-E05"
+        ]
+      },
+      "alternative_explanations_and_controls": {
+        "text": "Large clinical cohort does not offset regional exposure proxies, uncertain event timing, multiple exploratory contrasts or co-pollutant attribution. Confounder sensitivity statements from the overall analysis are not assumed to validate this specific VOC.",
+        "evidence_ids": [
+          "S05-E04",
+          "S05-E05",
+          "S05-E06"
+        ]
+      },
+      "contrast_robustness_precision": {
+        "text": "Clinical event records, a large cohort and exposure estimates for days preceding delivery. 99%, not 95%, interval. Event timing is proxied by delivery time; VOC estimate is not a mutually VOC-adjusted model.",
+        "evidence_ids": [
+          "S05-E02",
+          "S05-E03",
+          "S05-E04",
+          "S05-E05",
+          "S05-E06"
+        ]
+      }
+    },
+    "indicator": "Limited",
+    "triggered_rule": "R2"
+  },
+  {
+    "paper_id": "S06",
+    "short_citation": "Bard et al., 2014",
+    "role": "Demonstration",
+    "source_ids": [
+      "S06"
+    ],
+    "title": "Traffic-Related Air Pollution and the Onset of Myocardial Infarction: Disclosing Benzene as a Trigger? A Small-Area Case-Crossover Study. PLOS ONE. 2014;9:e100307.",
+    "design": "Time-stratified case-crossover study",
+    "cohort_family": "Strasbourg_MI_registry",
+    "setting": "Ambient urban",
+    "sample": "2,134 myocardial infarctions among adults aged 35–74 in Strasbourg, 2000–2007.",
+    "index_question": "Does a 1 µg/m³ increase in modeled benzene on the preceding day trigger myocardial infarction, independently of correlated traffic pollutants?",
+    "index_selection": "Benzene is a central paper question. Lag 1 is selected for clearer pre-event timing, rather than choosing the largest reported lag estimate.",
+    "finding": {
+      "direction": "Higher preceding-day benzene associated with MI",
+      "metric": "Odds ratio derived from reported excess odds",
+      "contrast": "1 µg/m³ benzene, lag 1",
+      "estimate": 1.072,
+      "lower": 1.003,
+      "upper": 1.145,
+      "interval_type": "95% confidence interval",
+      "p_value": "0.04",
+      "note": "Table 4 reports excess odds 7.2% (0.3–14.5%). Conversion is 1 + percent/100. Not the larger lag 0 or lag 0–1 estimate."
+    },
+    "inputs": {
+      "human_health_analysis": true,
+      "air_route_supported": true,
+      "claim_matches_measured_scope": true,
+      "essential_information_complete": true,
+      "temporality": "supported",
+      "critical_alternative_explanation": true,
+      "exposure_contrast": "observational",
+      "controls_adequate_for_narrow_claim": false,
+      "robustness_support": true,
+      "precision_sufficient_for_claim": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "S06-E01",
+        "source_id": "S06",
+        "locator": "Methods; study population and case-crossover design",
+        "text": "The registry supplied 2,134 MI events. Each event day was compared with same-weekday reference days within the same month.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S06-E02",
+        "source_id": "S06",
+        "locator": "Methods; exposure modeling and model validation",
+        "text": "Benzene and other pollutants were modeled at small-area residential scale; benzene predictions were compared with passive air measurements.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S06-E03",
+        "source_id": "S06",
+        "locator": "Table 4, PDF p. 4; lag 1 row",
+        "text": "Lag-1 benzene excess odds were 7.2% (95% CI 0.3–14.5%) per 1 µg/m³; P=0.04.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S06-E04",
+        "source_id": "S06",
+        "locator": "Table 4 footnote; statistical analysis",
+        "text": "Models accounted for selected weather variables and influenza; self-matching addresses stable person-level characteristics.",
+        "statement_type": "Reported design plus AI interpretation"
+      },
+      {
+        "evidence_id": "S06-E05",
+        "source_id": "S06",
+        "locator": "Table 3; Discussion, pollutant mixtures",
+        "text": "Benzene correlated with NO2, PM10 and CO. The paper discusses unmeasured ultrafine particles; the index analysis does not isolate benzene in a multipollutant causal model.",
+        "statement_type": "Reported plus AI attribution limit"
+      },
+      {
+        "evidence_id": "S06-E06",
+        "source_id": "S06",
+        "locator": "Discussion; lag patterns and limitations",
+        "text": "Several lag windows were analyzed. Same-day and two-day estimates are larger; the pilot deliberately retains the lag-1 contrast. Background mechanism citations were not independently assessed.",
+        "statement_type": "Reported plus AI selection disclosure"
+      }
+    ],
+    "hill": {
+      "strength": {
+        "status": "supportive",
+        "rationale": "A small positive association is reported; the lower confidence limit is close to no association.",
+        "evidence_ids": [
+          "S06-E03"
+        ]
+      },
+      "consistency": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S06-E06"
+        ]
+      },
+      "specificity": {
+        "status": "ambiguous",
+        "rationale": "Benzene is difficult to distinguish from the associated traffic mixture.",
+        "evidence_ids": [
+          "S06-E05"
+        ]
+      },
+      "temporality": {
+        "status": "supportive",
+        "rationale": "The selected lag-1 exposure precedes the event day, unlike a potentially overlapping same-day window.",
+        "evidence_ids": [
+          "S06-E03",
+          "S06-E06"
+        ]
+      },
+      "biological_gradient": {
+        "status": "ambiguous",
+        "rationale": "The linear modeled contrast is not a separately established exposure-response shape.",
+        "evidence_ids": [
+          "S06-E03"
+        ]
+      },
+      "plausibility": {
+        "status": "not_reported",
+        "rationale": "No direct evidence for this viewpoint was used for the index question.",
+        "evidence_ids": [
+          "S06-E06"
+        ]
+      },
+      "coherence": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S06-E06"
+        ]
+      },
+      "experiment": {
+        "status": "not_reported",
+        "rationale": "Case-crossover self-comparison is not an assigned exposure intervention.",
+        "evidence_ids": [
+          "S06-E01",
+          "S06-E02"
+        ]
+      },
+      "analogy": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S06-E06"
+        ]
+      }
+    },
+    "validity": "The design controls stable personal factors and has a clear lag-1 temporal contrast. The Limited label is specifically driven by chemical-attribution concerns, not an assumption that self-matched studies fail to control smoking or other stable traits.",
+    "support": "Within-person case-crossover comparison, pre-event lag and weather/influenza adjustment.",
+    "main_limitation": "Benzene co-varies with traffic pollutants, including incompletely characterized particles.",
+    "scope_statement": "Limited refers to benzene-specific attribution. The study may still inform the broader traffic-pollution question.",
+    "plain_language_summary": [
+      "Researchers studied 2,134 heart attacks in Strasbourg. They compared each event day with other days for the same person, using modeled neighborhood air pollution. This approach helps control characteristics that do not change between the compared days. [S06, Methods]",
+      "The pilot uses benzene on the preceding day, rather than selecting the largest association across time windows. Table 4 reports 7.2% higher odds per 1 microgram per cubic meter, with a 95% confidence interval from 0.3% to 14.5%. This corresponds to an odds ratio of 1.072. The exposure estimate precedes the event day. [S06, Table 4]",
+      "The pilot nevertheless assigns limited support to a benzene-specific causal explanation. Benzene tracked other traffic pollutants, and the paper discusses particles that were not adequately measured. The design helps answer whether an exposure change preceded an event, but does not necessarily identify which component caused it. This distinction matters: a careful summary should not dismiss the time-based design, but should not turn a mixed-pollution association into proof that benzene alone triggered the heart attacks. An expert review should test whether the proposed rule handles this attribution problem appropriately."
+    ],
+    "issues": [
+      "I09"
+    ],
+    "assessment_status": "AI assessment complete; expert validation pending",
+    "disclaimer": "AI-generated research assessment; not yet validated against human expert review.",
+    "input_rationale": {
+      "eligibility": {
+        "text": "Original human outcome analysis with measured/modeled air exposure and a narrowly matched question.",
+        "evidence_ids": [
+          "S06-E01",
+          "S06-E02"
+        ]
+      },
+      "temporality": {
+        "text": "The selected lag-1 exposure precedes the event day, unlike a potentially overlapping same-day window.",
+        "evidence_ids": [
+          "S06-E03",
+          "S06-E06"
+        ]
+      },
+      "alternative_explanations_and_controls": {
+        "text": "The design controls stable personal factors and has a clear lag-1 temporal contrast. The Limited label is specifically driven by chemical-attribution concerns, not an assumption that self-matched studies fail to control smoking or other stable traits.",
+        "evidence_ids": [
+          "S06-E04",
+          "S06-E05",
+          "S06-E06"
+        ]
+      },
+      "contrast_robustness_precision": {
+        "text": "Within-person case-crossover comparison, pre-event lag and weather/influenza adjustment. Table 4 reports excess odds 7.2% (0.3–14.5%). Conversion is 1 + percent/100. Not the larger lag 0 or lag 0–1 estimate.",
+        "evidence_ids": [
+          "S06-E02",
+          "S06-E03",
+          "S06-E04",
+          "S06-E05",
+          "S06-E06"
+        ]
+      }
+    },
+    "indicator": "Limited",
+    "triggered_rule": "R3"
+  },
+  {
+    "paper_id": "S07",
+    "short_citation": "Choi et al., 2010",
+    "role": "Demonstration",
+    "source_ids": [
+      "S07",
+      "C01",
+      "C02"
+    ],
+    "title": "Common Household Chemicals and the Allergy Risks in Pre-School Age Children. PLOS ONE. 2010;5:e13423.",
+    "design": "Nested case-control household study",
+    "cohort_family": "Sweden_Dampness_Buildings_Health",
+    "setting": "Indoor residential",
+    "sample": "400 recruited (198 cases, 202 controls); VOC data from 381 homes. Adjusted index Table 4: 155 cases, 167 controls.",
+    "index_question": "Does greater bedroom propylene-glycol/glycol-ether exposure contribute to the study’s persistent allergy/asthma case classification?",
+    "index_selection": "Composite case status, not the largest rhinitis estimate. Continuous one-ln-unit contrast from adjusted Table 4.",
+    "finding": {
+      "direction": "Higher PGE mixture associated with case status",
+      "metric": "Adjusted odds ratio",
+      "contrast": "Per one natural-log unit of summed PGEs",
+      "estimate": 1.5,
+      "lower": 1.1,
+      "upper": 2.1,
+      "interval_type": "95% confidence interval",
+      "p_value": null,
+      "note": "Adjusted index N=155 cases and 167 controls. One ln unit is an approximately 2.72-fold exposure ratio; it is not automatically the exposure IQR."
+    },
+    "inputs": {
+      "human_health_analysis": true,
+      "air_route_supported": true,
+      "claim_matches_measured_scope": true,
+      "essential_information_complete": true,
+      "temporality": "uncertain",
+      "critical_alternative_explanation": true,
+      "exposure_contrast": "observational",
+      "controls_adequate_for_narrow_claim": true,
+      "robustness_support": false,
+      "precision_sufficient_for_claim": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "S07-E01",
+        "source_id": "S07",
+        "locator": "Methods; participant selection and home sampling",
+        "text": "Cases had persistent symptom patterns before home VOC measurement. Air was sampled over about 60–90 minutes in children’s bedrooms.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S07-E02",
+        "source_id": "S07",
+        "locator": "Table 4, PDF p. 7; adjusted case row",
+        "text": "For the PGE mixture, adjusted case-status OR per ln unit was 1.5 (95% CI 1.1–2.1), based on 155 cases and 167 controls.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S07-E03",
+        "source_id": "S07",
+        "locator": "Table 4 footnote",
+        "text": "Covariates included sex, secondhand smoke, parental allergy, cleaning, construction period, limonene, dust cat/dog allergens and selected phthalates.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S07-E04",
+        "source_id": "S07",
+        "locator": "Table 4; quartiles; Discussion, timing",
+        "text": "Quartile patterns were not strictly monotone at the lower end. Historical repainting information does not directly establish the measured chemical exposure before disease onset.",
+        "statement_type": "Reported table plus AI interpretation"
+      },
+      {
+        "evidence_id": "S07-E05",
+        "source_id": "C01",
+        "locator": "Correction published 2011; chemical naming",
+        "text": "The publisher correction replaces Texanol A/B labels with explicit chemical names.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S07-E06",
+        "source_id": "C02",
+        "locator": "Correction published 2011; PGME isomer",
+        "text": "The corrected common PGME isomer is the alpha isomer, 1-methoxy-2-propanol; beta-isomer toxicology cannot automatically be assigned to it.",
+        "statement_type": "Reported correction plus AI implication"
+      }
+    ],
+    "hill": {
+      "strength": {
+        "status": "supportive",
+        "rationale": "A positive adjusted mixture association is present; the effect does not identify one component.",
+        "evidence_ids": [
+          "S07-E02",
+          "S07-E03"
+        ]
+      },
+      "consistency": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S07-E06"
+        ]
+      },
+      "specificity": {
+        "status": "ambiguous",
+        "rationale": "The exposure is a chemical group and the endpoint a composite; component-specific claims are not supported.",
+        "evidence_ids": [
+          "S07-E02"
+        ]
+      },
+      "temporality": {
+        "status": "ambiguous",
+        "rationale": "Persistent symptoms precede direct measurement; retrospective source history is not pre-onset chemical measurement.",
+        "evidence_ids": [
+          "S07-E01",
+          "S07-E04"
+        ]
+      },
+      "biological_gradient": {
+        "status": "ambiguous",
+        "rationale": "Higher categories tend upward, but the displayed adjusted categories are not strictly monotone.",
+        "evidence_ids": [
+          "S07-E04"
+        ]
+      },
+      "plausibility": {
+        "status": "external_unverified",
+        "rationale": "Mechanistic background was not independently assessed. Chemical-identity corrections limit transfer of toxicology between isomers.",
+        "evidence_ids": [
+          "S07-E05",
+          "S07-E06"
+        ]
+      },
+      "coherence": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S07-E06"
+        ]
+      },
+      "experiment": {
+        "status": "not_reported",
+        "rationale": "No assigned exposure.",
+        "evidence_ids": [
+          "S07-E01"
+        ]
+      },
+      "analogy": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S07-E06"
+        ]
+      }
+    },
+    "validity": "Measured bedroom air and several covariates are assets. Snapshot exposure after persistent symptoms, selection, correlated chemicals and group-level exposure attribution limit causality. Corrections are explicitly included.",
+    "support": "Direct bedroom air measurements and adjusted mixture analysis with an explicit outcome definition.",
+    "main_limitation": "Air sampling followed symptom history; the PGE group does not identify a single causal chemical.",
+    "scope_statement": "The index concerns a mixture and a composite case classification, not proof that every glycol ether causes asthma.",
+    "plain_language_summary": [
+      "This Swedish household study examined a group of chemicals called propylene glycol and glycol ethers, or PGEs. It compared children with persistent allergy or asthma-related symptoms with controls and measured bedroom air. The adjusted example used here included 155 cases and 167 controls. [S07, Methods; Table 4]",
+      "After adjustment for measured differences, higher PGE levels were associated with case status. The reported odds ratio was 1.5, with a 95% confidence interval of 1.1–2.1, for an approximately 2.7-fold increase in the summed concentration. The exposure represents a chemical group, not a single agent. [S07, Table 4; the 2.7-fold interpretation is calculated from the reported natural-log contrast.]",
+      "The pilot assigns limited causal support because direct sampling followed the children’s symptom histories. Earlier reports of repainting may help describe sources, but do not measure exposure before illness. Two publisher corrections were also reviewed: they clarify chemical names and the identity of a glycol-ether isomer. A summary should not borrow evidence about a different isomer to strengthen this result. The study raises a question about household mixtures; it does not establish that every chemical in that group caused the reported conditions."
+    ],
+    "issues": [
+      "I04",
+      "I10"
+    ],
+    "assessment_status": "AI assessment complete; expert validation pending",
+    "disclaimer": "AI-generated research assessment; not yet validated against human expert review.",
+    "input_rationale": {
+      "eligibility": {
+        "text": "Original human outcome analysis with measured/modeled air exposure and a narrowly matched question.",
+        "evidence_ids": [
+          "S07-E01",
+          "S07-E02"
+        ]
+      },
+      "temporality": {
+        "text": "Persistent symptoms precede direct measurement; retrospective source history is not pre-onset chemical measurement.",
+        "evidence_ids": [
+          "S07-E01",
+          "S07-E04"
+        ]
+      },
+      "alternative_explanations_and_controls": {
+        "text": "Measured bedroom air and several covariates are assets. Snapshot exposure after persistent symptoms, selection, correlated chemicals and group-level exposure attribution limit causality. Corrections are explicitly included.",
+        "evidence_ids": [
+          "S07-E04",
+          "S07-E05",
+          "S07-E06"
+        ]
+      },
+      "contrast_robustness_precision": {
+        "text": "Direct bedroom air measurements and adjusted mixture analysis with an explicit outcome definition. Adjusted index N=155 cases and 167 controls. One ln unit is an approximately 2.72-fold exposure ratio; it is not automatically the exposure IQR.",
+        "evidence_ids": [
+          "S07-E02",
+          "S07-E03",
+          "S07-E04",
+          "S07-E05",
+          "S07-E06"
+        ]
+      }
+    },
+    "indicator": "Limited",
+    "triggered_rule": "R2"
+  },
+  {
+    "paper_id": "S08",
+    "short_citation": "Ezratty et al., 2007",
+    "role": "Demonstration",
+    "source_ids": [
+      "S08"
+    ],
+    "title": "Effect of Formaldehyde on Asthmatic Response to Inhaled Allergen Challenge. Environmental Health Perspectives. 2007;115:210–214.",
+    "design": "Randomized double-blind crossover challenge study",
+    "cohort_family": "Formaldehyde_asthma_volunteers",
+    "setting": "Controlled inhalation",
+    "sample": "12 adults with intermittent asthma and pollen sensitization; two exposure sessions about two weeks apart.",
+    "index_question": "Does a 1-hour 500 µg/m³ formaldehyde exposure increase the subsequent response to inhaled allergen compared with filtered air in these adults?",
+    "index_selection": "Primary allergen-response question, assessed with the dose provoking a 15% fall in FEV1 (PD15). Finding is no enhancement detected, not proof of no effect.",
+    "finding": {
+      "direction": "No enhancement detected; imprecise null-harm finding",
+      "metric": "Median allergen PD15, with observed ranges",
+      "contrast": "500 µg/m³ formaldehyde versus filtered air for 1 hour",
+      "estimate": "0.80 versus 0.25 IR",
+      "lower": null,
+      "upper": null,
+      "interval_type": "Observed ranges: 0.15–2.0 and 0.1–2.0 IR; not confidence intervals",
+      "p_value": "0.06",
+      "note": "Higher PD15 means more allergen needed, not greater reactivity. Challenge capped at 2 IR; no equivalence margin or effect CI extracted."
+    },
+    "inputs": {
+      "human_health_analysis": true,
+      "air_route_supported": true,
+      "claim_matches_measured_scope": true,
+      "essential_information_complete": true,
+      "temporality": "supported",
+      "critical_alternative_explanation": false,
+      "exposure_contrast": "controlled",
+      "controls_adequate_for_narrow_claim": true,
+      "robustness_support": true,
+      "precision_sufficient_for_claim": false
+    },
+    "evidence": [
+      {
+        "evidence_id": "S08-E01",
+        "source_id": "S08",
+        "locator": "Methods; exposure design and blinding",
+        "text": "Twelve adults underwent randomized double-blind crossover exposure to filtered air and 500 µg/m³ formaldehyde for one hour, about two weeks apart.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S08-E02",
+        "source_id": "S08",
+        "locator": "Methods; allergen challenge",
+        "text": "Allergen challenge followed exposure. The index measure was the dose causing a 15% fall in FEV1; challenge was capped at 2 IR, with that value assigned when the endpoint was not reached.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S08-E03",
+        "source_id": "S08",
+        "locator": "Results; allergen response; Table 2",
+        "text": "Median PD15 was 0.80 IR after formaldehyde and 0.25 after air; observed ranges were 0.15–2.0 and 0.1–2.0. P=0.06.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S08-E04",
+        "source_id": "S08",
+        "locator": "Results; secondary tests and completion",
+        "text": "All 12 completed the exposures; no clear formaldehyde-related enhancement appeared in the reported secondary responsiveness/inflammation measures.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S08-E05",
+        "source_id": "S08",
+        "locator": "Discussion; precision and scope",
+        "text": "Small N, the dose ceiling and absence of a prespecified equivalence margin prevent concluding that clinically important effects are excluded.",
+        "statement_type": "AI interpretation of reported design/results"
+      },
+      {
+        "evidence_id": "S08-E06",
+        "source_id": "S08",
+        "locator": "Methods/Discussion; tested population",
+        "text": "The study concerns a brief resting exposure in selected adults, not chronic exposure or asthma development in children. External literature was not assessed for a field-level conclusion.",
+        "statement_type": "Reported design plus AI scope limit"
+      }
+    ],
+    "hill": {
+      "strength": {
+        "status": "ambiguous",
+        "rationale": "No enhanced allergen response was detected, but no effect interval/equivalence margin establishes the size of effects excluded.",
+        "evidence_ids": [
+          "S08-E03",
+          "S08-E05"
+        ]
+      },
+      "consistency": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S08-E06"
+        ]
+      },
+      "specificity": {
+        "status": "ambiguous",
+        "rationale": "The controlled agent is isolated, but the test is a selected physiological response, not every asthma endpoint.",
+        "evidence_ids": [
+          "S08-E02",
+          "S08-E06"
+        ]
+      },
+      "temporality": {
+        "status": "supportive",
+        "rationale": "Exposure preceded the allergen challenge.",
+        "evidence_ids": [
+          "S08-E01",
+          "S08-E02"
+        ]
+      },
+      "biological_gradient": {
+        "status": "not_reported",
+        "rationale": "Only one formaldehyde concentration was compared with air.",
+        "evidence_ids": [
+          "S08-E01"
+        ]
+      },
+      "plausibility": {
+        "status": "ambiguous",
+        "rationale": "Secondary biological measures did not show clear enhancement; that does not establish absence of all pathways.",
+        "evidence_ids": [
+          "S08-E04",
+          "S08-E05"
+        ]
+      },
+      "coherence": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S08-E06"
+        ]
+      },
+      "experiment": {
+        "status": "supportive",
+        "rationale": "Randomized, blinded within-person exposure comparison.",
+        "evidence_ids": [
+          "S08-E01",
+          "S08-E04"
+        ]
+      },
+      "analogy": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S08-E06"
+        ]
+      }
+    },
+    "validity": "Randomization, blinding and within-person comparison strengthen causal interpretability. The null-harm finding is constrained by small N, capped challenge values and no equivalence test. Moderate does not mean moderate evidence that formaldehyde is harmful or safe.",
+    "support": "Randomized, double-blind exposure before a standardized allergen challenge.",
+    "main_limitation": "Small sample, challenge-dose ceiling and no prespecified equivalence bound.",
+    "scope_statement": "Moderate describes interpretability of a no-enhancement-detected result, not proof of safety or a harmful effect.",
+    "plain_language_summary": [
+      "Twelve adults with asthma took part in a blinded, randomized crossover experiment. They breathed filtered air or air containing 500 micrograms per cubic meter of formaldehyde for one hour. Researchers then measured their response to an inhaled allergen. [S08, Methods]",
+      "The study did not detect a stronger allergen response after formaldehyde. The median allergen dose needed to produce a 15% drop in lung function was 0.80 after formaldehyde and 0.25 after air, in the study’s units. A higher dose means less sensitivity, not greater sensitivity. The comparison had P=0.06. These results should not be rewritten as evidence of a harmful increase. [S08, Results; Table 2]",
+      "The pilot assigns moderate interpretability to this no-enhancement-detected finding. Randomization and blinding strengthen the comparison. However, only 12 people were studied, the allergen challenge had a maximum dose, and the analysis did not define a margin for concluding that the exposures were equivalent. Not detecting an effect is different from ruling out effects of an important size. This experiment therefore provides a bounded negative result under specific conditions, not proof that formaldehyde is safe or cannot affect asthma under other conditions."
+    ],
+    "issues": [
+      "I05"
+    ],
+    "assessment_status": "AI assessment complete; expert validation pending",
+    "disclaimer": "AI-generated research assessment; not yet validated against human expert review.",
+    "input_rationale": {
+      "eligibility": {
+        "text": "Original human outcome analysis with measured/modeled air exposure and a narrowly matched question.",
+        "evidence_ids": [
+          "S08-E01",
+          "S08-E02"
+        ]
+      },
+      "temporality": {
+        "text": "Exposure preceded the allergen challenge.",
+        "evidence_ids": [
+          "S08-E01",
+          "S08-E02"
+        ]
+      },
+      "alternative_explanations_and_controls": {
+        "text": "Randomization, blinding and within-person comparison strengthen causal interpretability. The null-harm finding is constrained by small N, capped challenge values and no equivalence test. Moderate does not mean moderate evidence that formaldehyde is harmful or safe.",
+        "evidence_ids": [
+          "S08-E04",
+          "S08-E05",
+          "S08-E06"
+        ]
+      },
+      "contrast_robustness_precision": {
+        "text": "Randomized, double-blind exposure before a standardized allergen challenge. Higher PD15 means more allergen needed, not greater reactivity. Challenge capped at 2 IR; no equivalence margin or effect CI extracted.",
+        "evidence_ids": [
+          "S08-E02",
+          "S08-E03",
+          "S08-E04",
+          "S08-E05",
+          "S08-E06"
+        ]
+      }
+    },
+    "indicator": "Moderate",
+    "triggered_rule": "R5"
+  },
+  {
+    "paper_id": "S09",
+    "short_citation": "Delfino et al., 2003",
+    "role": "Demonstration",
+    "source_ids": [
+      "S09"
+    ],
+    "title": "Asthma symptoms in Hispanic children and daily ambient exposures to toxic and criteria air pollutants. Environmental Health Perspectives. 2003;111:647–656.",
+    "design": "Repeated-measures daily panel study",
+    "cohort_family": "Huntington_Park_child_panel",
+    "setting": "Ambient community",
+    "sample": "22 children with asthma aged 10–16; 20 in multivariable analyses after additional diary-data exclusions.",
+    "index_question": "Does greater daily ambient benzene contribute to bothersome asthma symptoms on the same day among these children with asthma?",
+    "index_selection": "Illustrative benzene lag-0 result within the study’s multi-pollutant symptom objective; not a claim about developing asthma.",
+    "finding": {
+      "direction": "Higher daily benzene associated with symptoms",
+      "metric": "Adjusted odds ratio",
+      "contrast": "Per 1.00 ppb benzene (IQR), lag 0",
+      "estimate": 1.23,
+      "lower": 1.02,
+      "upper": 1.48,
+      "interval_type": "95% confidence interval",
+      "p_value": null,
+      "note": "Daily repeated outcomes are not independent people. Symptom models account for within-child correlation and respiratory infection."
+    },
+    "inputs": {
+      "human_health_analysis": true,
+      "air_route_supported": true,
+      "claim_matches_measured_scope": true,
+      "essential_information_complete": true,
+      "temporality": "uncertain",
+      "critical_alternative_explanation": true,
+      "exposure_contrast": "observational",
+      "controls_adequate_for_narrow_claim": false,
+      "robustness_support": false,
+      "precision_sufficient_for_claim": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "S09-E01",
+        "source_id": "S09",
+        "locator": "Methods; participants and diaries",
+        "text": "Twenty-two children with asthma provided repeated symptom and peak-flow records; additional exclusions left 20 for multivariable symptom models.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S09-E02",
+        "source_id": "S09",
+        "locator": "Methods; ambient monitoring",
+        "text": "Central-site 24-hour measurements characterized benzene and other pollutants; personal exposure was not directly measured.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S09-E03",
+        "source_id": "S09",
+        "locator": "Table 4; benzene lag 0; Results",
+        "text": "Per 1.00 ppb benzene, bothersome symptom OR was 1.23 (95% CI 1.02–1.48).",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S09-E04",
+        "source_id": "S09",
+        "locator": "Statistical methods",
+        "text": "GEE accounted for repeated observations and respiratory infection was included; several lag windows and pollutants were examined.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S09-E05",
+        "source_id": "S09",
+        "locator": "Discussion; mixtures, influential subjects and exposure",
+        "text": "Small participant numbers, correlated pollutants and an area-level exposure surrogate limit chemical attribution. The selected 24-hour exposure and symptom windows overlap.",
+        "statement_type": "Reported design plus AI interpretation"
+      },
+      {
+        "evidence_id": "S09-E06",
+        "source_id": "S09",
+        "locator": "Results and Discussion; endpoint scope",
+        "text": "Participants already had asthma; daily symptom findings do not establish asthma incidence. Background mechanisms were not independently assessed.",
+        "statement_type": "Reported design plus AI scope limit"
+      }
+    ],
+    "hill": {
+      "strength": {
+        "status": "supportive",
+        "rationale": "A positive association is reported, but precision and dependence arise from repeated days in few children.",
+        "evidence_ids": [
+          "S09-E01",
+          "S09-E03",
+          "S09-E04"
+        ]
+      },
+      "consistency": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S09-E06"
+        ]
+      },
+      "specificity": {
+        "status": "ambiguous",
+        "rationale": "Benzene is one component of a correlated ambient mixture.",
+        "evidence_ids": [
+          "S09-E02",
+          "S09-E05"
+        ]
+      },
+      "temporality": {
+        "status": "ambiguous",
+        "rationale": "The selected lag-0 24-hour exposure overlaps the symptom day; ordering within the day is not established.",
+        "evidence_ids": [
+          "S09-E02",
+          "S09-E05"
+        ]
+      },
+      "biological_gradient": {
+        "status": "ambiguous",
+        "rationale": "A fitted exposure coefficient does not independently prove a dose-response shape.",
+        "evidence_ids": [
+          "S09-E03"
+        ]
+      },
+      "plausibility": {
+        "status": "not_reported",
+        "rationale": "No direct evidence for this viewpoint was used for the index question.",
+        "evidence_ids": [
+          "S09-E06"
+        ]
+      },
+      "coherence": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S09-E06"
+        ]
+      },
+      "experiment": {
+        "status": "not_reported",
+        "rationale": "No assigned exposure or exposure reduction.",
+        "evidence_ids": [
+          "S09-E01",
+          "S09-E02"
+        ]
+      },
+      "analogy": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S09-E06"
+        ]
+      }
+    },
+    "validity": "Repeated diaries and correlation-aware analysis are useful. Central-site exposure, small N, several pollutants/lags and overlapping daily timing limit a benzene-specific causal conclusion. Repeated days cannot be counted as independent participants.",
+    "support": "Repeated daily observations and models accounting for within-child correlation.",
+    "main_limitation": "Overlapping same-day windows and correlated pollution in a small panel.",
+    "scope_statement": "The finding concerns symptom fluctuations among children who already had asthma—not new asthma cases.",
+    "plain_language_summary": [
+      "Researchers followed children with asthma in Huntington Park, California, collecting daily symptom reports and comparing them with community air measurements. Twenty-two children contributed records, with 20 included in the multivariable symptom analyses. Repeated days add information, but do not turn this into a study of hundreds of independent children. [S09, Methods]",
+      "For the benzene example selected here, a 1-part-per-billion increase was associated with an odds ratio of 1.23 for bothersome same-day symptoms, with a 95% confidence interval of 1.02–1.48. Models accounted for repeated observations and respiratory infection. [S09, Table 4; statistical methods]",
+      "The pilot assigns limited causal support. The 24-hour air measurement overlaps the day when symptoms were recorded, so the order within that day is uncertain. Benzene also varied alongside other pollutants, and a community monitor cannot capture each child’s full exposure. These limitations do not erase the observed association. They do mean a summary should say the study linked daily pollution with symptom changes, rather than claiming that benzene alone caused those symptoms. Because all participants already had asthma, the study also cannot demonstrate that benzene caused them to develop the disease."
+    ],
+    "issues": [],
+    "assessment_status": "AI assessment complete; expert validation pending",
+    "disclaimer": "AI-generated research assessment; not yet validated against human expert review.",
+    "input_rationale": {
+      "eligibility": {
+        "text": "Original human outcome analysis with measured/modeled air exposure and a narrowly matched question.",
+        "evidence_ids": [
+          "S09-E01",
+          "S09-E02"
+        ]
+      },
+      "temporality": {
+        "text": "The selected lag-0 24-hour exposure overlaps the symptom day; ordering within the day is not established.",
+        "evidence_ids": [
+          "S09-E02",
+          "S09-E05"
+        ]
+      },
+      "alternative_explanations_and_controls": {
+        "text": "Repeated diaries and correlation-aware analysis are useful. Central-site exposure, small N, several pollutants/lags and overlapping daily timing limit a benzene-specific causal conclusion. Repeated days cannot be counted as independent participants.",
+        "evidence_ids": [
+          "S09-E04",
+          "S09-E05",
+          "S09-E06"
+        ]
+      },
+      "contrast_robustness_precision": {
+        "text": "Repeated daily observations and models accounting for within-child correlation. Daily repeated outcomes are not independent people. Symptom models account for within-child correlation and respiratory infection.",
+        "evidence_ids": [
+          "S09-E02",
+          "S09-E03",
+          "S09-E04",
+          "S09-E05",
+          "S09-E06"
+        ]
+      }
+    },
+    "indicator": "Limited",
+    "triggered_rule": "R2"
+  },
+  {
+    "paper_id": "S10",
+    "short_citation": "Rumchev et al., 2002",
+    "role": "Demonstration",
+    "source_ids": [
+      "S10"
+    ],
+    "title": "Domestic exposure to formaldehyde significantly increases the risk of asthma in young children. European Respiratory Journal. 2002;20:403–408.",
+    "design": "Case-control study with post-event household measurements",
+    "cohort_family": "Perth_1998_children",
+    "setting": "Indoor residential",
+    "sample": "88 asthma cases and 104 controls aged 6 months–3 years; same participants as S03.",
+    "index_question": "Does household airborne formaldehyde contribute to asthma case status in these young children?",
+    "index_selection": "Primary formaldehyde/asthma objective; high-versus-low category used because the continuous-effect unit description is internally inconsistent.",
+    "finding": {
+      "direction": "Higher formaldehyde associated with asthma case status",
+      "metric": "Reported adjusted categorical odds ratio",
+      "contrast": "≥60 versus <10 µg/m³",
+      "estimate": 1.39,
+      "lower": null,
+      "upper": null,
+      "interval_type": "CI shown graphically; exact limits not extracted",
+      "p_value": null,
+      "note": "Do not silently reconcile the separate continuous statement: text describes 3% per 10 units but prints OR 1.003 (1.002–1.004)."
+    },
+    "inputs": {
+      "human_health_analysis": true,
+      "air_route_supported": true,
+      "claim_matches_measured_scope": true,
+      "essential_information_complete": true,
+      "temporality": "uncertain",
+      "critical_alternative_explanation": false,
+      "exposure_contrast": "observational",
+      "controls_adequate_for_narrow_claim": true,
+      "robustness_support": false,
+      "precision_sufficient_for_claim": false
+    },
+    "evidence": [
+      {
+        "evidence_id": "S10-E01",
+        "source_id": "S10",
+        "locator": "Methods; recruitment",
+        "text": "The Perth sample contained 88 emergency asthma cases and 104 community controls aged 6 months–3 years. It matches the later VOC companion report.",
+        "statement_type": "Reported; linkage to S03"
+      },
+      {
+        "evidence_id": "S10-E02",
+        "source_id": "S10",
+        "locator": "Methods; formaldehyde measurement",
+        "text": "Bedroom/living-room formaldehyde was sampled during winter after case presentation and again in the opposite season, using daytime passive sampling.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S10-E03",
+        "source_id": "S10",
+        "locator": "Results; concentration comparison",
+        "text": "Mean formaldehyde concentrations were 38 µg/m³ in case homes and 24 µg/m³ in control homes.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S10-E04",
+        "source_id": "S10",
+        "locator": "Results; categorical model; Figure 3 description",
+        "text": "The reported categorical OR was 1.39 for ≥60 versus <10 µg/m³. Exact graphical CI limits were not extracted.",
+        "statement_type": "Reported"
+      },
+      {
+        "evidence_id": "S10-E05",
+        "source_id": "S10",
+        "locator": "Results; continuous-model sentence",
+        "text": "The continuous-model wording pairs an approximately 3% increase per 10 units with OR 1.003 (1.002–1.004); the scaling cannot be resolved from that sentence alone.",
+        "statement_type": "AI consistency flag grounded in source"
+      },
+      {
+        "evidence_id": "S10-E06",
+        "source_id": "S10",
+        "locator": "Methods; adjustment; Discussion",
+        "text": "Adjusted analyses considered child/family/home factors. Selection and diagnostic uncertainty are discussed; post-event sampling does not establish prior exposure.",
+        "statement_type": "Reported design plus AI interpretation"
+      }
+    ],
+    "hill": {
+      "strength": {
+        "status": "ambiguous",
+        "rationale": "Positive categorical association is reported, but exact interval extraction is incomplete and the separate continuous scaling is unresolved.",
+        "evidence_ids": [
+          "S10-E03",
+          "S10-E04",
+          "S10-E05"
+        ]
+      },
+      "consistency": {
+        "status": "external_unverified",
+        "rationale": "S03 is a companion analysis of the same population, not an independent replication.",
+        "evidence_ids": [
+          "S10-E01"
+        ]
+      },
+      "specificity": {
+        "status": "ambiguous",
+        "rationale": "Home conditions and correlated exposures remain alternatives.",
+        "evidence_ids": [
+          "S10-E06"
+        ]
+      },
+      "temporality": {
+        "status": "ambiguous",
+        "rationale": "The first air measurements followed case presentation.",
+        "evidence_ids": [
+          "S10-E02",
+          "S10-E06"
+        ]
+      },
+      "biological_gradient": {
+        "status": "ambiguous",
+        "rationale": "Higher-category findings are suggestive; the continuous unit mismatch prevents a precise gradient interpretation.",
+        "evidence_ids": [
+          "S10-E04",
+          "S10-E05"
+        ]
+      },
+      "plausibility": {
+        "status": "not_reported",
+        "rationale": "No direct evidence for this viewpoint was used for the index question.",
+        "evidence_ids": [
+          "S10-E06"
+        ]
+      },
+      "coherence": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S10-E06"
+        ]
+      },
+      "experiment": {
+        "status": "not_reported",
+        "rationale": "No assigned exposure contrast.",
+        "evidence_ids": [
+          "S10-E01",
+          "S10-E02"
+        ]
+      },
+      "analogy": {
+        "status": "external_unverified",
+        "rationale": "Independent external evidence was not assessed. Background citations do not establish this domain in the present study-level pilot.",
+        "evidence_ids": [
+          "S10-E06"
+        ]
+      }
+    },
+    "validity": "Actual air sampling supports route eligibility. Post-event timing and young-child diagnosis remain concerns. The continuous numerical discrepancy is not repaired by inference; incomplete categorical precision is retained explicitly.",
+    "support": "Measured indoor formaldehyde and an adjusted high-versus-low exposure comparison.",
+    "main_limitation": "Post-event exposure sampling plus an unresolved effect-unit inconsistency in the source.",
+    "scope_statement": "This is the same Perth population as S03. The study does not independently replicate it or establish a safe threshold.",
+    "plain_language_summary": [
+      "This paper reports household formaldehyde measurements in the same Perth children later included in the 2004 VOC paper. It compared 88 asthma cases with 104 controls. Home sampling occurred after the case presentation and was repeated in another season. [S10, Methods; S03, Methods]",
+      "Average formaldehyde concentrations were higher in case homes. The paper reports an odds ratio of 1.39 for its highest exposure category, at least 60 micrograms per cubic meter, compared with below 10. Exact confidence limits for this categorical contrast were not extracted from the graph. A separate continuous-effect sentence has a mismatch between the stated exposure increment and the printed odds ratio; the pilot preserves that uncertainty rather than inventing a correction. [S10, Results; Figure 3]",
+      "The pilot assigns limited causal support because the measurements followed the health event. The article title uses strong causal-sounding language, but the indicator follows the methods rather than the title. The unresolved numerical scaling is a separate reporting issue, not the sole reason for the limited label. Readers should understand this as evidence of an association in a particular group of young children. The two Perth publications are useful for comparing chemical analyses within one study, not for counting two independent confirmations."
+    ],
+    "issues": [
+      "I01",
+      "I03"
+    ],
+    "assessment_status": "AI assessment complete; expert validation pending",
+    "disclaimer": "AI-generated research assessment; not yet validated against human expert review.",
+    "input_rationale": {
+      "eligibility": {
+        "text": "Original human outcome analysis with measured/modeled air exposure and a narrowly matched question.",
+        "evidence_ids": [
+          "S10-E01",
+          "S10-E02"
+        ]
+      },
+      "temporality": {
+        "text": "The first air measurements followed case presentation.",
+        "evidence_ids": [
+          "S10-E02",
+          "S10-E06"
+        ]
+      },
+      "alternative_explanations_and_controls": {
+        "text": "Actual air sampling supports route eligibility. Post-event timing and young-child diagnosis remain concerns. The continuous numerical discrepancy is not repaired by inference; incomplete categorical precision is retained explicitly.",
+        "evidence_ids": [
+          "S10-E04",
+          "S10-E05",
+          "S10-E06"
+        ]
+      },
+      "contrast_robustness_precision": {
+        "text": "Measured indoor formaldehyde and an adjusted high-versus-low exposure comparison. Do not silently reconcile the separate continuous statement: text describes 3% per 10 units but prints OR 1.003 (1.002–1.004).",
+        "evidence_ids": [
+          "S10-E02",
+          "S10-E03",
+          "S10-E04",
+          "S10-E05",
+          "S10-E06"
+        ]
+      }
+    },
+    "indicator": "Limited",
+    "triggered_rule": "R2"
+  }
+]
